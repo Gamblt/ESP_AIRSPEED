@@ -1,6 +1,8 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include <TFT_eSPI.h>
+#include <SPI.h>
+#include <XPT2046_Touchscreen.h>
 #include <Preferences.h>
 #include <math.h>
 
@@ -12,6 +14,13 @@ constexpr float RHO = 1.225f; // Standard density: indicated airspeed, not true 
 constexpr float SPEED_ZERO_BAND_PA = 3.0f; // Suppress near-zero noise only in speed output.
 constexpr float PSI_PA = 6894.757f;
 constexpr unsigned ZERO_SAMPLES = 150;
+// CYD touch (XPT2046) sits on its own SPI pins, separate from the display (HSPI).
+constexpr int TOUCH_CLK = 25, TOUCH_MISO = 39, TOUCH_MOSI = 32, TOUCH_CS = 33;
+constexpr uint32_t TOUCH_HOLD_MS = 1000; // Hold the DIFF PRESS card to start ZERO.
+// DIFF PRESS card (middle one): x=112..208, y=145..211, plus a small margin.
+constexpr int CARD_X0 = 108, CARD_X1 = 212, CARD_Y0 = 141, CARD_Y1 = 215;
+// The touch library uses the global SPI object (VSPI); the display uses HSPI.
+XPT2046_Touchscreen touch(TOUCH_CS);
 TFT_eSPI lcd;
 TFT_eSprite screen(&lcd);
 bool buffered = false;
@@ -45,6 +54,36 @@ void startZero() {
     zeroSum = 0;
     zeroStarted = millis();
     Serial.println("ZERO: stop airflow; collecting 150 fresh samples");
+}
+
+// Holding the DIFF PRESS card for TOUCH_HOLD_MS starts the manual ZERO,
+// same as BOOT / serial 'z'. A single hold fires once until the finger is lifted.
+void handleTouch(uint32_t now) {
+    static uint32_t lastPoll = 0, pressStart = 0;
+    static bool fired = false, wasTouched = false;
+    if (now - lastPoll < 20) return;
+    lastPoll = now;
+    bool inside = false;
+    const bool touched = touch.touched();
+    if (touched) {
+        const TS_Point p = touch.getPoint();
+        const int x = map(p.x, 200, 3700, 0, 320);
+        const int y = map(p.y, 240, 3800, 0, 240);
+        if (!wasTouched) Serial.printf("TOUCH raw=%d,%d -> x=%d y=%d\n", p.x, p.y, x, y);
+        inside = x >= CARD_X0 && x <= CARD_X1 && y >= CARD_Y0 && y <= CARD_Y1;
+    }
+    wasTouched = touched;
+    if (!inside) {
+        pressStart = 0;
+        fired = false;
+    } else if (!fired) {
+        if (!pressStart) pressStart = now;
+        else if (now - pressStart >= TOUCH_HOLD_MS && !zeroing) {
+            fired = true;
+            Serial.println("TOUCH: DIFF PRESS held -> ZERO");
+            startZero();
+        }
+    }
 }
 
 bool readSensor(float &pa, float &tc) {
@@ -104,7 +143,7 @@ void paintScreen(Canvas &canvas, bool fresh, bool ready, float dp, float speed) 
     const char *hint = "INDICATED AIRSPEED";
     if (zeroing) hint = "ZEROING: KEEP AIR STILL";
     else if (!fresh) hint = sensorState;
-    else if (!calibrated) hint = "STOP FLOW + PRESS BOOT";
+    else if (!calibrated) hint = "STOP FLOW + HOLD DIFF PRESS";
     else if (dp < -10) hint = "REVERSE: CHECK PITOT TUBES";
     const bool reverse = !zeroing && fresh && calibrated && dp < -10;
     canvas.setTextColor(reverse ? TFT_RED : (ready && dp >= -10 ? muted : amber), bg);
@@ -173,9 +212,11 @@ void setup() {
     delay(200);
     Serial.println("AIRSPEED v6 dashboard | fixed header/footer | CYD ST7789 | speed zero band +/-3Pa");
     pinMode(0, INPUT_PULLUP);
-    // Keep the unused touch and SD controllers deselected.
-    pinMode(33, OUTPUT); digitalWrite(33, HIGH);
+    // Keep the unused SD controller deselected; touch CS is driven by the touch library.
     pinMode(5, OUTPUT); digitalWrite(5, HIGH);
+    SPI.begin(TOUCH_CLK, TOUCH_MISO, TOUCH_MOSI, TOUCH_CS);
+    touch.begin();
+    touch.setRotation(1);
     lcd.init();
     lcd.setRotation(1);
     logLcdRegister(0x04);
@@ -220,6 +261,7 @@ void loop() {
         lastButtonChange = now;
         if (down) startZero();
     }
+    handleTouch(now);
     if (now - lastRead >= 20) {
         lastRead = now;
         float pa, tc;

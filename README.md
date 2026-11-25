@@ -18,7 +18,8 @@ this is the ST7789 ID stream with the dummy-bit shift, not an ILI9341 ID.
 The wiring remains:
 SCLK14, MOSI13, MISO12, CS15, DC2, backlight21.
 On startup the firmware logs raw ID registers and logical display dimensions.
-Touch is not used by this version.
+Touch (XPT2046, own SPI pins CLK25/MOSI32/MISO39/CS33) is used only to start
+zeroing: hold the middle DIFF PRESS card for about 1 second.
 
 The v2 dashboard follows the supplied design: dark background, large km/h
 readout, three cards for m/s, differential pressure and sensor temperature,
