@@ -73,15 +73,20 @@ void handleTouch(uint32_t now) {
         inside = x >= CARD_X0 && x <= CARD_X1 && y >= CARD_Y0 && y <= CARD_Y1;
     }
     wasTouched = touched;
-    if (!inside) {
+    if (!touched) {
+        // Re-arm only after the finger is really lifted.
         pressStart = 0;
         fired = false;
+    } else if (!inside) {
+        pressStart = 0; // Sliding off the card restarts the hold timer.
     } else if (!fired) {
         if (!pressStart) pressStart = now;
-        else if (now - pressStart >= TOUCH_HOLD_MS && !zeroing) {
-            fired = true;
-            Serial.println("TOUCH: DIFF PRESS held -> ZERO");
-            startZero();
+        else if (now - pressStart >= TOUCH_HOLD_MS) {
+            fired = true; // Latch even if ZERO is already running: one hold = one trigger.
+            if (!zeroing) {
+                Serial.println("TOUCH: DIFF PRESS held -> ZERO");
+                startZero();
+            }
         }
     }
 }
