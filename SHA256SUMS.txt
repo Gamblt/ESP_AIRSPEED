@@ -1,0 +1,598 @@
+694cfe9eb74e6235bdf8b201b21dca69214566a81e6f92932a818383c13ea576  .gitignore
+e02564be26cdb355fc8833e7b1160613d4c5b15faa410d61ac6ae35611ff62b0  AGENTS.md
+95f2927969b8c129482869f923f741a825ba55a083d35e3435efe95e8d7ccf6c  docs/PROJECT_STATE.md
+bdbd68b106767972511720c3034130c2ffc1862c5abc29bfe110bf82c5137383  lib/TFT_eSPI-2.5.33/.gitattributes
+6c004d3d59c571b8c391b1f06f013022af3c66ae239f51535c8aef9a3b02de90  lib/TFT_eSPI-2.5.33/.github/ISSUE_TEMPLATE/issue-template.md
+ada87ad183f5e9179b6dc4e6558e925bd6729c1a2a6eb97c06723ec574ca32fe  lib/TFT_eSPI-2.5.33/.gitignore
+b0ab5ff5e60e96f6aefae7d1e2275597f815db873f0c0ec6b8f1baf7c0a41ecd  lib/TFT_eSPI-2.5.33/CMakeLists.txt
+b1ee432e09e187e5b538c7d742186eef58616fd87ef1564272c3fa9adc76fcda  lib/TFT_eSPI-2.5.33/docs/ESP32 UNO board mod/ESP32 UNO board mod.jpg
+f325957a8456fb4bed177c56b050504ed48a9d0057f6c9931dbef43bcfa2dead  lib/TFT_eSPI-2.5.33/docs/ESP32 UNO board mod/ESP32 UNO board pinout.jpg
+fe7cf2f10b498f45410434a43ec43c1fa6de1825cd89b8d87dd9bbb76c1e6620  lib/TFT_eSPI-2.5.33/docs/ESP-IDF/Using ESP-IDF.txt
+2fbefd215830770a346db8b09234ab36198614f9907e44f6b9cd3195f98fc6df  lib/TFT_eSPI-2.5.33/docs/PlatformIO/Configuring options.txt
+aa9636fac6fc38325decbc4c67b48350c4303b9be5530fc9fde362a2177dd448  lib/TFT_eSPI-2.5.33/docs/PlatformIO/rp2040.txt
+18527ef1dc7ffd97edd6d7221d417b24764bcf6d0544cbfe135081b3b7af24f9  lib/TFT_eSPI-2.5.33/docs/RPi_TFT_connections/RPi_TFT_Connections.png
+dbcde2d7eb781a31d51c38102543e5ce73d8b1358b1a60cec9dce004ab3134c2  lib/TFT_eSPI-2.5.33/docs/RPi_TFT_connections/RPi_TFT_mod.png
+e0bbd288b1fb21c54e0699f7845c7df501b6b731b9c8cc1e855f531194c60cb6  lib/TFT_eSPI-2.5.33/examples/160 x 128/Arduino_Life/Arduino_Life.ino
+0efd2c0367df56b051ae077a6b4850a01894c3a9ceea06262d82c6b6e34d05c8  lib/TFT_eSPI-2.5.33/examples/160 x 128/Pong_v3/Pong_v3.ino
+af3906caed4213d005552424e1fd05e2d29ef690aa6d63e28ff73e3e444bdeef  lib/TFT_eSPI-2.5.33/examples/160 x 128/RLE_Font_test/RLE_Font_test.ino
+42b26f6f3b884ad259ec06f19246801165760afeaa8bdae41db013857ee07ed8  lib/TFT_eSPI-2.5.33/examples/160 x 128/TFT_Char_times/TFT_Char_times.ino
+79b9efd76571c71bd41c8245f5a6bb6812586cb845876f6df6c2006bec0be2c0  lib/TFT_eSPI-2.5.33/examples/160 x 128/TFT_Clock/TFT_Clock.ino
+5dbbfd0f80b0e83d8f06edcb4a573143362528750ce8e473d71ed1bdf3c0efdb  lib/TFT_eSPI-2.5.33/examples/160 x 128/TFT_Clock_Digital/TFT_Clock_Digital.ino
+6be84f96e6b32d63b0e6b20d18e3551ef86855e85337c2fe653a7d00549e37fc  lib/TFT_eSPI-2.5.33/examples/160 x 128/TFT_Ellipse/TFT_Ellipse.ino
+2228c6d23386c116507af8b5d3fdcc4c1e58d9835755af49813e4e50a738a560  lib/TFT_eSPI-2.5.33/examples/160 x 128/TFT_flash_jpg/jpeg1.h
+3f7cf55daeeb155fc7e4f71a3d3c2e4cb263871b69b0ac63d61f7beff0bb15a2  lib/TFT_eSPI-2.5.33/examples/160 x 128/TFT_flash_jpg/jpeg2.h
+4cc9d5d5b3c4980c099f4b611f4b20fb5cb08166a87aed1900048cc7329e515b  lib/TFT_eSPI-2.5.33/examples/160 x 128/TFT_flash_jpg/jpeg3.h
+a6a522ba9cddb9726c7aa8123b7baae339db5a40439180814c3eb93b256105db  lib/TFT_eSPI-2.5.33/examples/160 x 128/TFT_flash_jpg/jpeg4.h
+c12b9c2209fe0d757c816e7df58f11e9de3024251fb3bf98c5bd0d037c50c451  lib/TFT_eSPI-2.5.33/examples/160 x 128/TFT_flash_jpg/TFT_flash_jpg.ino
+39e1a50760d4a57a46fa1298613b86a796da162b23eb931def10409a056c68c1  lib/TFT_eSPI-2.5.33/examples/160 x 128/TFT_graphicstest_PDQ3/TFT_graphicstest_PDQ3.ino
+ac2074368c3807c1de652c5f61db939d7fb6458b089dc1ca147314ef149f8453  lib/TFT_eSPI-2.5.33/examples/160 x 128/TFT_graphicstest_small/TFT_graphicstest_small.ino
+4aa9a384b01f8f5109a26ac0e0ac67fc193fe292f526902535d07be1f9addaec  lib/TFT_eSPI-2.5.33/examples/160 x 128/TFT_Meter_5/TFT_Meter_5.ino
+4b4ef85a2346809ac49250e5fb993043f525ad53dc7f8f718fb093fe9c320ba3  lib/TFT_eSPI-2.5.33/examples/160 x 128/TFT_Print_Test/TFT_Print_Test.ino
+06711d2ccaeb371958035c334460f5ec50a085f75d1e3f9a2b12117c6a17171d  lib/TFT_eSPI-2.5.33/examples/160 x 128/TFT_Rainbow/TFT_Rainbow.ino
+1201cd010871bcbf2915cd8fed6d8c55c10a1aab3d937276fafb6d0baf48b7fd  lib/TFT_eSPI-2.5.33/examples/160 x 128/UTFT_demo_fast/UTFT_demo_fast.ino
+51bea46e7e05feb85398070ce4cace16268489ddcedac47177bf5353129f53b7  lib/TFT_eSPI-2.5.33/examples/320 x 240/All_Free_Fonts_Demo/All_Free_Fonts_Demo.ino
+d113b4155389a0928f215867a9213c89b7cd292e1659fbe255ca64074c761f6a  lib/TFT_eSPI-2.5.33/examples/320 x 240/All_Free_Fonts_Demo/Free_Fonts.h
+74bf853f4f14b718582facbb9e03dddc0fd29bc206bd2bff5bed01866ca092aa  lib/TFT_eSPI-2.5.33/examples/320 x 240/Cellular_Automata/Cellular_Automata.ino
+d2a51da02d88ed70aa27a9efe1e7f964ce548dacb90d7bcecb61df4aa9a71178  lib/TFT_eSPI-2.5.33/examples/320 x 240/Free_Font_Demo/Free_Font_Demo.ino
+3558bf573512d8d8a17554bb6e2f638631299742da6a47340ac6419a8209fad9  lib/TFT_eSPI-2.5.33/examples/320 x 240/Free_Font_Demo/Free_Fonts.h
+f4519321adba9abdd72d245188b814583dea1c5e18e4a1fed110234b096dabad  lib/TFT_eSPI-2.5.33/examples/320 x 240/Keypad_240x320/Keypad_240x320.ino
+8984e18e9589d70a8ac20bccffcd43625a61fcb930420734bebbb282231518f7  lib/TFT_eSPI-2.5.33/examples/320 x 240/Read_ID_bitbash/Read_ID_bitbash.ino
+6aef7c305739b44f3ec887bfb969f44befb350e5aa7e7c22d57d021581a55767  lib/TFT_eSPI-2.5.33/examples/320 x 240/RLE_Font_test/RLE_Font_test.ino
+9a7948836dfe8cad183adfe706cd2fdd479f721984330d80f05f4ee82572ac24  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_ArcFill/TFT_ArcFill.ino
+e91241077a08fae65da7e51d3311dabfd33860b5e2bac8786fff380e52d40656  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Char_times/TFT_Char_times.ino
+2c5a0b8fb9ceb2c340c6d30d878f3663f4a75dd34c0114d912e5c381b2419077  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Clock/TFT_Clock.ino
+7d2e574b50b3bc54e76cf9f17ad4e4ecab980a2a63e1ba63183eaf8834248663  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Clock_Digital/TFT_Clock_Digital.ino
+6a8f5ffff3f5b2be6e85b6b4d9c9d227f269394372bc2bbef3d8a4d3b73d591b  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Custom_Fonts/TFT_Custom_Fonts.ino
+07bee752964e0711cf101bbf11139739f0001dc43072a642c7849b68d00834a6  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Ellipse/TFT_Ellipse.ino
+e2175d068fc177496e6912724f83042a89b32f7f4e3ab9627d9f2d995d5a45f8  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_FillArcSpiral/TFT_FillArcSpiral.ino
+2d1a778b85975e9068796a0cacbc7350147c133627cdac6e92a3182923133dc4  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Float_Test/TFT_Float_Test.ino
+65cc102e0748b59598e694d65a41b2150f464b0299f686efa84da510f58b2e24  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_graphicstest_one_lib/TFT_graphicstest_one_lib.ino
+56ef168ad851f6da9c60d90e337a18edfb402158993480d5a4c1b790cbb3d34b  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_graphicstest_PDQ/TFT_graphicstest_PDQ.ino
+9b46f3e48cb49f6f9b15802cf8a48d62b70db4b7d98b26e34a2bca77783ce2fb  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Mandlebrot/TFT_Mandlebrot.ino
+ca76cec31dfa0aa201c57791e9fc6d5660cf3d19a8c4c26fa4d519071872ea71  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Matrix/TFT_Matrix.ino
+b6b58f9f6f36f868a2249b13c6f787c342ca3eed26b3d0a30c7d50609b6d9d0f  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Meter_linear/TFT_Meter_linear.ino
+9615b43907917e429d0089d5b8f7ac68aa3ff5b723e38f334e999cd0824782b3  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Meters/TFT_Meters.ino
+e50e06ad0391e11ead8dd985db2494297a7d97e28ac951f4020626abaac294f3  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Pie_Chart/TFT_Pie_Chart.ino
+b3630fef358af709d6b3cfd787f71b4187b199bbd71c61bc898572b152b455d1  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Pong/TFT_Pong.ino
+9dc1420f609b1ebdfbd81bc6930d627ae0873cda15c1c8ab37e4e1ee7cee2007  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Print_Test/TFT_Print_Test.ino
+30dd6cbdac8bb5eda9da7237d2324e6e230eef3b889d5e0da97cb436e7cdc1c4  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Rainbow_one_lib/TFT_Rainbow_one_lib.ino
+459e0b481fd24b33398bba9963a722565849fd3f271b9494b66e87439cdab639  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Read_Reg/TFT_Read_Reg.ino
+69ec770974f34ca57a01b0529bee27bb04a83cc1f9790906e77ded65912e0a15  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Spiro/TFT_Spiro.ino
+6fcef4b2a55a6364cc967dc05b51aedcdb25c35069c2216d92c1e02cc63fa765  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Starfield/TFT_Starfield.ino
+7310089726ac128c3eba4f7119e4fd210e5260f867f170ec96c9f2d78846c849  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_String_Align/TFT_String_Align.ino
+1ac7cb2fabe3a0cf60a089425312f8591fe80219379f16cbc45aac955571f4d6  lib/TFT_eSPI-2.5.33/examples/320 x 240/TFT_Terminal/TFT_Terminal.ino
+4531c666e1c64766b7d9e19e16fd4d1bb57bacf0cba067198c337ed6cfcf31a6  lib/TFT_eSPI-2.5.33/examples/320 x 240/UTFT_demo/UTFT_demo.ino
+146d3a3e69e0fa0130571a7685b6191f1ba14d7fb1a5b905978a6c22fd32907e  lib/TFT_eSPI-2.5.33/examples/480 x 320/Cellular_Automata/Cellular_Automata.ino
+2ed5cb35d81659a230880c1e946f76fc97e08cc5f663a928c1700c01385ac168  lib/TFT_eSPI-2.5.33/examples/480 x 320/Demo_3D_cube/Demo_3D_cube.ino
+6ab029585ac3ddf5eaba5d7a87e391df71e14350c0afb2916128a57be308edc3  lib/TFT_eSPI-2.5.33/examples/480 x 320/Free_Font_Demo/Free_Font_Demo.ino
+c31f2f5b06de7dc7e889446bf60dd1e4845df5ebf06b339601a7e123e010755a  lib/TFT_eSPI-2.5.33/examples/480 x 320/Free_Font_Demo/Free_Fonts.h
+c58aded069fae7face4ae57112838a942cc3b75cd4d088c885961addea43f684  lib/TFT_eSPI-2.5.33/examples/480 x 320/Graph_2/Graph_2.ino
+f21b36d807de1fe8f5c67212fdbab9d1be1b1677c1bffabc15ff8acdb82f7525  lib/TFT_eSPI-2.5.33/examples/480 x 320/Keypad_480x320/Keypad_480x320.ino
+ca8c6f81a3c5214e4db549fa69fddd80a0bfeb2e45c768a4a2ece0e6863a3a15  lib/TFT_eSPI-2.5.33/examples/480 x 320/TFT_Char_times/TFT_Char_times.ino
+95030de35f2485a8c8a11bfe3a560d7acef21678556642d452140c7b49d63cb2  lib/TFT_eSPI-2.5.33/examples/480 x 320/TFT_Ellipse/TFT_Ellipse.ino
+33b2008b1d7488b899cc0932f8fa08204823d49502767acfa80ed1b388b7d8ab  lib/TFT_eSPI-2.5.33/examples/480 x 320/TFT_flash_jpg/jpeg1.h
+2cd45007ac7c2d7db2ac2a664e6234487a4c39cf39e69ac08e66ad278352f33e  lib/TFT_eSPI-2.5.33/examples/480 x 320/TFT_flash_jpg/jpeg2.h
+5607041daf4e5abfaa20b50b8ea04d539c09304faa907d411663ca351f1003bb  lib/TFT_eSPI-2.5.33/examples/480 x 320/TFT_flash_jpg/jpeg3.h
+f81261046e6434eca75ae733c61c9a29f3a6a397246c3d372144e5a9fc0d70d9  lib/TFT_eSPI-2.5.33/examples/480 x 320/TFT_flash_jpg/jpeg4.h
+4b4974286d4d6860466fa82bc8503fd360f2b520712f032f60b82184be67a2dd  lib/TFT_eSPI-2.5.33/examples/480 x 320/TFT_flash_jpg/TFT_flash_jpg.ino
+db9004d59d0bc779c687deecfd8543b53b9182e5a35f79d96cb8e7973f35718f  lib/TFT_eSPI-2.5.33/examples/480 x 320/TFT_graphicstest_one_lib/TFT_graphicstest_one_lib.ino
+74cf5f198ef20cc0bf1ab89818437ec21d422befd124de6a8e10ddcd70b2b125  lib/TFT_eSPI-2.5.33/examples/480 x 320/TFT_Meter_4/TFT_Meter_4.ino
+f6159e85a79ceae864053f610f2a2acdfa5acb70f2ec8ae0d600992e486784ba  lib/TFT_eSPI-2.5.33/examples/480 x 320/TFT_Meters/TFT_Meters.ino
+862ddee4fe8fb98c72f800973f84ab6e11e460a23f11058fa1bf98ec9d3f7b4d  lib/TFT_eSPI-2.5.33/examples/480 x 320/TFT_Padding_demo/TFT_Padding_demo.ino
+e435dad19de4a11e4b972c660b15f884364fa74130e3b7369aa4e563a8bcf395  lib/TFT_eSPI-2.5.33/examples/480 x 320/TFT_Print_Test/TFT_Print_Test.ino
+40d7e3180b8b4f756335d21e0f75457ef31297f7d76bcb03cf8bd71494bb6643  lib/TFT_eSPI-2.5.33/examples/480 x 320/TFT_Rainbow480/TFT_Rainbow480.ino
+a0696981da1f1eb7576079b91d395d91e2a267c0cc9593b077504c18fe85fb12  lib/TFT_eSPI-2.5.33/examples/480 x 320/TFT_ring_meter/Alert.h
+cf934495b890b379deee22129055bb13ebb4b3c0b55e975e299d3aa9c59b87da  lib/TFT_eSPI-2.5.33/examples/480 x 320/TFT_ring_meter/TFT_ring_meter.ino
+2766b273011742269dbd4a3dec2fac39074a7d615e9e84a35c6c805db46b3fef  lib/TFT_eSPI-2.5.33/examples/480 x 320/TFT_String_Align/TFT_String_Align.ino
+9c29baf0704e279e87def8d3a016478b508aa5a630c36a4870fe695d26175bd9  lib/TFT_eSPI-2.5.33/examples/480 x 320/Touch_Controller_Demo/Touch_Controller_Demo.ino
+3dc4b6cc4b72c21c518b59f7b715a0ee4b8361d0d99ac2e1d2f996952156cccf  lib/TFT_eSPI-2.5.33/examples/480 x 320/UTFT_Demo_480x320/UTFT_Demo_480x320.ino
+93c3f8e29cb03f87b2218fd45a9348128297397613531d262364f75e01e23d3d  lib/TFT_eSPI-2.5.33/examples/DMA test/boing_ball/boing_ball.ino
+87939676470cc4f258ec046d5ef4ee7a7e60470b1d5da085b7ce4cda7864e6ea  lib/TFT_eSPI-2.5.33/examples/DMA test/boing_ball/graphic.h
+2ffb0570ad9a4eb7d634072399a2c7f5df8823da6d994be93ddec9c15becf573  lib/TFT_eSPI-2.5.33/examples/DMA test/Bouncy_Circles/Bouncy_Circles.ino
+a19fd88c22844bb150ddd8a1b82b97fc75082355471ec4a5513ec3459928fbe1  lib/TFT_eSPI-2.5.33/examples/DMA test/Flash_Jpg_DMA/Flash_Jpg_DMA.ino
+f1db5747ae60ad85fcae899d7427eb8a8dac76867b049506f096ccd2355502ae  lib/TFT_eSPI-2.5.33/examples/DMA test/Flash_Jpg_DMA/panda.h
+1a0453e2445140390524086b1fbe968e96dbbd2b391f4887a49706cff2fc3a09  lib/TFT_eSPI-2.5.33/examples/DMA test/SpriteRotatingCube/SpriteRotatingCube.ino
+b794e1df959acaeab226194471ffde6a235efb54b0a9248dc69206cf1981b5cf  lib/TFT_eSPI-2.5.33/examples/ePaper/Floyd_Steinberg/data/TestCard.bmp
+a6bb38249a7d92c2268383e96cad6837a22125b2039c2bda9745ae50d47e5280  lib/TFT_eSPI-2.5.33/examples/ePaper/Floyd_Steinberg/data/Tiger.bmp
+2ef2bfeb2671226c0250c73fa488b365df8ece55cf68984bf268878632fc1c16  lib/TFT_eSPI-2.5.33/examples/ePaper/Floyd_Steinberg/EPD_Support.h
+7c1ee00d3fcea39220e9f24bf65a8b8aa97c07caffa4777b286843e54c1835a8  lib/TFT_eSPI-2.5.33/examples/ePaper/Floyd_Steinberg/Floyd_Steinberg.ino
+872b0e4f946751d497151c991e75473efbfd205f117098d15045d3c11a0714aa  lib/TFT_eSPI-2.5.33/examples/ePaper/Floyd_Steinberg/Floyd_Steinberg_BMP.ino
+b7c872542c318b2f22492629a892b081c612c1da8bac69201bc1746121db0e7a  lib/TFT_eSPI-2.5.33/examples/ePaper/Floyd_Steinberg/SPIFFS.ino
+c896905a2028e0539d431f5ae1cf8f5fb19bbcc921cf2ed40f63d1e80b8f15d2  lib/TFT_eSPI-2.5.33/examples/Generic/alphaBlend_Test/alphaBlend_Test.ino
+81e37744fabe541fb6ad682139807edd26f0bebcde43f244d90d8c0264291a4f  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_1/Animated_Eyes_1.ino
+296ffa356df160a72093b4a27a444416cd9f0077d3b65681ec7069f3ae6eed03  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_1/config.h
+c71811ff45f6dd617f3d5c6f69f97fad1cc633fa99d01073109096cb3a2c0966  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_1/data/catEye.h
+cb42af8efbd1807a1e7e9ff6c420691d4b6a4fc6d53941485a65bd18fa33dcc7  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_1/data/defaultEye.h
+d118ad227f503b0be3e4375ab3d74d2e35695f2aa18304d7e756476012f43c84  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_1/data/doeEye.h
+edeb5e642c5613f614b27e89bcbfd43ba4cfcd95da8161c64fa82cb7595dc5d8  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_1/data/dragonEye.h
+89cd2e2e8b8944952fa88622a53590fc5212349876131797ddd75c1593e23265  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_1/data/goatEye.h
+2f793feec6c0a163dcb97ce5447d08856b75de7b4823658bd9243071023d49f7  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_1/data/logo.h
+e0a8cdbe4ec6ff029aa54641aead76ae04b5858641ca529ed33ef8cb827bd8b0  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_1/data/naugaEye.h
+83707f9834b8bfdaa4ccb832c329caf4ad6e621767f0e42e445094b419e532b7  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_1/data/newtEye.h
+cd0717b8cd7678fa21212b27b67c6251ad69b7d591697bc14867b6dde4f0aaea  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_1/data/noScleraEye.h
+405a7117a8832366b1b977e4708c86358b6dd6509c16fcd643a987fd81d06b5a  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_1/data/owlEye.h
+015664e72ab884b6fb30f2294c24f7dc58a82f3b9dc328ad3fd8a525e93a5364  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_1/data/terminatorEye.h
+109088d652e3d54a2b6143239fa0035c8c8ebba232d319ac2232a979f321f30c  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_1/eye_functions.ino
+139f8bdf459b36db6a15d34031818daa22fcfab65d010b355ed8d4e7404a439d  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_1/user.cpp
+456cd5c0ebbdcb146bce0eda5b45d07ab19a8eb8fcaa1ee614b9ecbb9139ddc3  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_1/user_bat.cpp
+d238c44f3421624fdbb953f04b6e9f44a5ad5dadaa42f719ca9c2da258a0eca7  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_1/user_xmas.cpp
+529c5cbb105cd785f5d850df768bbb54d4db2631788f513228e4b38ecf3b39cd  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/Animated_Eyes_2.ino
+b4761a7a54d4cd887ebb01a3cd310e70629666d8381bc2fd0db6accecb1b5eb1  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/config.h
+c71811ff45f6dd617f3d5c6f69f97fad1cc633fa99d01073109096cb3a2c0966  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/data/catEye.h
+cb42af8efbd1807a1e7e9ff6c420691d4b6a4fc6d53941485a65bd18fa33dcc7  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/data/defaultEye.h
+d118ad227f503b0be3e4375ab3d74d2e35695f2aa18304d7e756476012f43c84  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/data/doeEye.h
+edeb5e642c5613f614b27e89bcbfd43ba4cfcd95da8161c64fa82cb7595dc5d8  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/data/dragonEye.h
+89cd2e2e8b8944952fa88622a53590fc5212349876131797ddd75c1593e23265  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/data/goatEye.h
+2f793feec6c0a163dcb97ce5447d08856b75de7b4823658bd9243071023d49f7  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/data/logo.h
+e0a8cdbe4ec6ff029aa54641aead76ae04b5858641ca529ed33ef8cb827bd8b0  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/data/naugaEye.h
+83707f9834b8bfdaa4ccb832c329caf4ad6e621767f0e42e445094b419e532b7  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/data/newtEye.h
+cd0717b8cd7678fa21212b27b67c6251ad69b7d591697bc14867b6dde4f0aaea  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/data/noScleraEye.h
+405a7117a8832366b1b977e4708c86358b6dd6509c16fcd643a987fd81d06b5a  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/data/owlEye.h
+015664e72ab884b6fb30f2294c24f7dc58a82f3b9dc328ad3fd8a525e93a5364  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/data/terminatorEye.h
+109088d652e3d54a2b6143239fa0035c8c8ebba232d319ac2232a979f321f30c  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/eye_functions.ino
+139f8bdf459b36db6a15d34031818daa22fcfab65d010b355ed8d4e7404a439d  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/user.cpp
+456cd5c0ebbdcb146bce0eda5b45d07ab19a8eb8fcaa1ee614b9ecbb9139ddc3  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/user_bat.cpp
+d238c44f3421624fdbb953f04b6e9f44a5ad5dadaa42f719ca9c2da258a0eca7  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/user_xmas.cpp
+cc5e17b2b80b911210462fa1d0ac1f88466f0f8b3e59ef97e55ebd2931d4ed16  lib/TFT_eSPI-2.5.33/examples/Generic/Animated_Eyes_2/wiring.ino
+90e194780feecf4ef998d72024cf9cd5a17f7cc8d0ca206abcca5b76b17987a8  lib/TFT_eSPI-2.5.33/examples/Generic/drawXBitmap/drawXBitmap.ino
+13f2e647920ba05351506ceec54fec504c6dad7416f113a95ced197bd637dcb3  lib/TFT_eSPI-2.5.33/examples/Generic/drawXBitmap/xbm.h
+10ab81ee0fc961d0659ed96d04e48843b1ba410c7ac174e29ced6650e880b164  lib/TFT_eSPI-2.5.33/examples/Generic/ESP32_SDcard_jpeg/Data/Baboon40.jpg
+39f3ba37adb5c860ec7644e63a41a422b1beb260fe945910be27a36ade7f81e0  lib/TFT_eSPI-2.5.33/examples/Generic/ESP32_SDcard_jpeg/Data/EagleEye.jpg
+97b86a374e6ed0e4df9dc645be65f3565dbae121712b0595d46d0378e6a3ebaa  lib/TFT_eSPI-2.5.33/examples/Generic/ESP32_SDcard_jpeg/Data/lena20k.jpg
+472411ac7ff26b17bd6b9d31850cb310eaf118185fb92c2ad4304db784588f6b  lib/TFT_eSPI-2.5.33/examples/Generic/ESP32_SDcard_jpeg/Data/Mouse480.jpg
+661497ad9f45bf7a151341b435eb8a5258563df5b38fe884f7b2ea4361d04eab  lib/TFT_eSPI-2.5.33/examples/Generic/ESP32_SDcard_jpeg/ESP32_SDcard_jpeg.ino
+a93f937b54a84dba8581a00694d9e0b3395c5468165629a144e89fe7a02bf235  lib/TFT_eSPI-2.5.33/examples/Generic/ESP8266_uncannyEyes/defaultEye.h
+e15880d2347263814568b89fde54240d0a5d64628a44729d1efb379d3f842bd5  lib/TFT_eSPI-2.5.33/examples/Generic/ESP8266_uncannyEyes/dragonEye.h
+97ab6722cff076f1d31d03e4cd92a40399e14470ae87ed03107097ba1fd0a4df  lib/TFT_eSPI-2.5.33/examples/Generic/ESP8266_uncannyEyes/ESP8266_uncannyEyes.ino
+d4b5b79d41b760c633f833b0ec6b36986ba4cca63515346e12e0714b1b42c7dc  lib/TFT_eSPI-2.5.33/examples/Generic/ESP8266_uncannyEyes/goatEye.h
+843dde08a503893d03640ba80286cd42b1ad73af3847e9ac35061dfc192c4498  lib/TFT_eSPI-2.5.33/examples/Generic/ESP8266_uncannyEyes/noScleraEye.h
+348131da718faa780add6517297dfbad7affaf4c980a1eefdb06cbce64ed7f79  lib/TFT_eSPI-2.5.33/examples/Generic/ESP8266_uncannyEyes/screenshotToConsole.ino
+5d1253ed60dc1821bbcc7c75d5dd73a555d63abb22375f70a173cc4f20bb5ada  lib/TFT_eSPI-2.5.33/examples/Generic/Gradient_Fill/Gradient_Fill.ino
+a090e324c88bc4071c13fcc663d898f08ce298160678cef18d426ad476849436  lib/TFT_eSPI-2.5.33/examples/Generic/Julia_Set/Julia_Set.ino
+f1e9f74bc7af6d6ea8326269004fb34863e9a9de691acaeae3674fb3faf2210d  lib/TFT_eSPI-2.5.33/examples/Generic/Local_Custom_Fonts/Local_Custom_Fonts.ino
+f9612fc70cd8c2bde47a0f738865adcf40735ff7428829f7a4a47aad39933396  lib/TFT_eSPI-2.5.33/examples/Generic/Local_Custom_Fonts/MyFont.h
+f4ed52ff53cf1dd04b8e3f258e90b9972e005812b8fc5f8d421ff2e7926567b5  lib/TFT_eSPI-2.5.33/examples/Generic/On_Off_Button/On_Off_Button.ino
+58818385f3065a53edc6dc84a25431cc07bf3da657e195ea8f7e0b784c1b830e  lib/TFT_eSPI-2.5.33/examples/Generic/TFT_Button_Label_Datum/TFT_Button_Label_Datum.ino
+447c70a36a5d7ef76df6e091645fff3822686d0c20d9f5064d32b839dc56c28f  lib/TFT_eSPI-2.5.33/examples/Generic/TFT_Flash_Bitmap/Alert.h
+b3b8dd8c8ef6c2f7f3bc9d284285a3b586072cd2ece16474c8386b501236b1e4  lib/TFT_eSPI-2.5.33/examples/Generic/TFT_Flash_Bitmap/Close.h
+ae01ab2175e6f725b219e200254cbade3d2f528fd07bc601b1fdc6a9708ce8e4  lib/TFT_eSPI-2.5.33/examples/Generic/TFT_Flash_Bitmap/Info.h
+ad397474525aef1c16fe660d39d7ad1086c8feea2d34a87d07494c0c760cd8c8  lib/TFT_eSPI-2.5.33/examples/Generic/TFT_Flash_Bitmap/TFT_Flash_Bitmap.ino
+9cb12cca983c1008f090fd6b8dd59c34b9e703a87e1cea9686a04fa5cf212f6f  lib/TFT_eSPI-2.5.33/examples/Generic/TFT_Screen_Capture/processing_sketch.ino
+7e519de94d98bb3f4d630f48a8fac01289a9b3cf0cf58a2ea6c01afcb2f567e1  lib/TFT_eSPI-2.5.33/examples/Generic/TFT_Screen_Capture/screenServer.ino
+bb8bb6badd6ffa5a772aeaa299b980bb47db984c69965b95eea0faac1cd06b9a  lib/TFT_eSPI-2.5.33/examples/Generic/TFT_Screen_Capture/TFT_Screen_Capture.ino
+42617b05c9077bf6a87d89a18626496ab10a5a2b34b6fdf551a58b3369d06fa9  lib/TFT_eSPI-2.5.33/examples/Generic/TFT_SPIFFS_BMP/BMP_functions.ino
+5ef790f1a20ea457ce8df217af10816c9bec3fe0eda8b3f6ce081a765e189302  lib/TFT_eSPI-2.5.33/examples/Generic/TFT_SPIFFS_BMP/data/parrot.bmp
+28880dac0169e53bc8c7f66e94b5fed706a4cc3bce8b811a5a8aa7620a6c554f  lib/TFT_eSPI-2.5.33/examples/Generic/TFT_SPIFFS_BMP/TFT_SPIFFS_BMP.ino
+10cfab371f2b864be9ca1d3f219361ca82dbaf0697bdd2f6b81795a4eedee7e0  lib/TFT_eSPI-2.5.33/examples/Generic/Touch_calibrate/Touch_calibrate.ino
+d98e5dfe8b1fb17f27c81449f65eb74d67a38c1dbf1e02899cb9a18476439776  lib/TFT_eSPI-2.5.33/examples/Generic/Viewport_Demo/Viewport_commands.ino
+32ef8c2740c2fe65161f37f0e9c48748298df1d4d9656a17fe318122a72fb8bf  lib/TFT_eSPI-2.5.33/examples/Generic/Viewport_Demo/Viewport_Demo.ino
+aedc0168749f41ecfed74f50dc45a327b3ba5f1c38ac09b57fe6bab0ff13e796  lib/TFT_eSPI-2.5.33/examples/Generic/Viewport_graphicstest/Viewport_graphicstest.ino
+a0a4b06912b298276f689cb686abefc68f43fb27fc00ab42a161434e62fa710a  lib/TFT_eSPI-2.5.33/examples/GUI Widgets/Buttons/Button_demo/Button_demo.ino
+0be7444c5957e3c595b925131fb60e51b1a6686abf8f41e3e2162aac0cbbaa9d  lib/TFT_eSPI-2.5.33/examples/GUI Widgets/Buttons/Button_demo/Free_Fonts.h
+469626480a3ba93937ee7cb7ea6aa07468230cb62e228062d231eb5188c761f9  lib/TFT_eSPI-2.5.33/examples/GUI Widgets/Graphs/Graph_demo_1/Graph_demo_1.ino
+5e79b74e188968bd44af41f3f157c486f7574fa99d579a8b358d9ca5d60fcab9  lib/TFT_eSPI-2.5.33/examples/GUI Widgets/Graphs/Graph_demo_2/Graph_demo_2.ino
+1fae93aa4a0f68aa6e0838fc94206ad75da83af598434a6fed7a7ab531c4f09f  lib/TFT_eSPI-2.5.33/examples/GUI Widgets/Meters/Analogue_meters/Analogue_meters.ino
+0be7444c5957e3c595b925131fb60e51b1a6686abf8f41e3e2162aac0cbbaa9d  lib/TFT_eSPI-2.5.33/examples/GUI Widgets/Sliders/Slider_demo/Free_Fonts.h
+55e7927af4ee151abdad305e3bdd2ba1c98dd0b9b47d94b0d279f53587fc0449  lib/TFT_eSPI-2.5.33/examples/GUI Widgets/Sliders/Slider_demo/Slider_demo.ino
+6d15dd58b4900987d540180d0695fa0199cdee28eb2dfe08eb46bc8811b346fb  lib/TFT_eSPI-2.5.33/examples/PNG Images/Flash_PNG/Flash_PNG.ino
+cf1860e87792bb91b7f1757526201006b4849266306645e5385c1e0630079611  lib/TFT_eSPI-2.5.33/examples/PNG Images/Flash_PNG/panda.h
+73c9ef87fbb68df661d42d41568541e0cdbba2a8c886aed84574a947080c4942  lib/TFT_eSPI-2.5.33/examples/PNG Images/Flash_transparent_PNG/Flash_transparent_PNG.ino
+be754f1dd421f47b4210bbdc8c56fc06eabeeda12c8b785fd820022b48beaa2e  lib/TFT_eSPI-2.5.33/examples/PNG Images/Flash_transparent_PNG/png_support.ino
+185bdb0bcc2aa840ad7bdebcecf5cbc76d0f6af31c1ecedd98d96152f9752d7c  lib/TFT_eSPI-2.5.33/examples/PNG Images/Flash_transparent_PNG/SpongeBob.h
+af0735e62fa037833ec1f323a377876c18ee887ac2b968cce6d053882ff69617  lib/TFT_eSPI-2.5.33/examples/PNG Images/LittleFS_PNG/data/EagleEye.png
+8db04099ae44c17f74bf4a4ee9ba385de42e14f51eb23ff5628a86dd6cb363cb  lib/TFT_eSPI-2.5.33/examples/PNG Images/LittleFS_PNG/data/panda.png
+e1859334f0c1fd2e7d8e120c919461e35a27d78e9ccd4338de3ff876840aad27  lib/TFT_eSPI-2.5.33/examples/PNG Images/LittleFS_PNG/LittleFS_PNG.ino
+6e6a290e318a348665427b902a17eae73127cea8c5adff73696f1d72ee3b9224  lib/TFT_eSPI-2.5.33/examples/PNG Images/LittleFS_PNG/PNG_FS_Support.ino
+af0735e62fa037833ec1f323a377876c18ee887ac2b968cce6d053882ff69617  lib/TFT_eSPI-2.5.33/examples/PNG Images/LittleFS_PNG_DMA/data/EagleEye.png
+8db04099ae44c17f74bf4a4ee9ba385de42e14f51eb23ff5628a86dd6cb363cb  lib/TFT_eSPI-2.5.33/examples/PNG Images/LittleFS_PNG_DMA/data/panda.png
+fabd7623022174a012bdc00f49513a72cee4e02a4f1a18dbd13710be1cf07ae6  lib/TFT_eSPI-2.5.33/examples/PNG Images/LittleFS_PNG_DMA/LittleFS_PNG_DMA.ino
+6e6a290e318a348665427b902a17eae73127cea8c5adff73696f1d72ee3b9224  lib/TFT_eSPI-2.5.33/examples/PNG Images/LittleFS_PNG_DMA/PNG_FS_Support.ino
+b7d162685b91c8330e7d8a0a81b44bf2d75d1b4bbc628b130e6bda42ff66268b  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Font_Demo_1_Array/Font_Demo_1_Array.ino
+1c910353e4b75de3a845360366a8049354d5f1e25ef339c59f1c9ff01dab36e7  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Font_Demo_1_Array/Notes.ino
+ba62c096fb592d05c813ebe5d99ff84a3baa527de60736c4bbbafe072af45fbf  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Font_Demo_1_Array/NotoSansBold15.h
+de76216faa0f071f2fe3870dac3a61cf08a4bffac6427ec5bd6cfee8a5d34dcd  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Font_Demo_1_Array/NotoSansBold36.h
+5bcb4b4ef58f8b6d1ef909e92c177a650a6a447529a3a660951fe3d08304b133  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Font_Demo_2_Array/Font_Demo_2_Array.ino
+1c910353e4b75de3a845360366a8049354d5f1e25ef339c59f1c9ff01dab36e7  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Font_Demo_2_Array/Notes.ino
+ba62c096fb592d05c813ebe5d99ff84a3baa527de60736c4bbbafe072af45fbf  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Font_Demo_2_Array/NotoSansBold15.h
+de76216faa0f071f2fe3870dac3a61cf08a4bffac6427ec5bd6cfee8a5d34dcd  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Font_Demo_2_Array/NotoSansBold36.h
+6cc5f47d7e82cb26428b0911be5e205c535ce5d530c57275696d6e6996f0aa68  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Font_Demo_3_Array/Font_Demo_3_Array.ino
+0dde2563a4d7a95afb7aac1f462ff945f66ee272d2843b0adb6c3ca4931f5684  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Font_Demo_3_Array/Notes.ino
+ba62c096fb592d05c813ebe5d99ff84a3baa527de60736c4bbbafe072af45fbf  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Font_Demo_3_Array/NotoSansBold15.h
+de76216faa0f071f2fe3870dac3a61cf08a4bffac6427ec5bd6cfee8a5d34dcd  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Font_Demo_3_Array/NotoSansBold36.h
+e622835b6ac26de5f5d009d48b9fc7fd2607b3cf7aafd501a47af90eefac610d  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Font_Demo_3_Array/NotoSansMonoSCB20.h
+fbbbb1e9280fd2c07b8b3f84504ae6b2486b3f7f6193fc71c47bfc3a9a06bdc0  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Font_Demo_4_Array/Font_Demo_4_Array.ino
+1c910353e4b75de3a845360366a8049354d5f1e25ef339c59f1c9ff01dab36e7  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Font_Demo_4_Array/Notes.ino
+ba62c096fb592d05c813ebe5d99ff84a3baa527de60736c4bbbafe072af45fbf  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Font_Demo_4_Array/NotoSansBold15.h
+de76216faa0f071f2fe3870dac3a61cf08a4bffac6427ec5bd6cfee8a5d34dcd  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Font_Demo_4_Array/NotoSansBold36.h
+39030e215769b57092ce7ad70c0e221e1318a76427961e55bdd10618c095dc47  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Print_Smooth_Font/Final_Frontier_28.h
+e3d09420f5d60a22b2bc97a69fe62f2ef1540f7cf454c9360beaa6bcde6958d1  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Print_Smooth_Font/Print_Smooth_Font.ino
+2d05f16045d1e0fbf44d6af1072775cc764345cfce3836a379653f0a8dc8ee90  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Smooth_font_gradient/NotoSansBold15.h
+50fe510bd44a14e30bc1cf913e2c920d1f4e399f640d881aa5df14524ab31561  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Smooth_font_gradient/NotoSansBold36.h
+16fec2fa3270be4ec3f1c3808f2e3b8f3f240d678281cf02ef2392cf110d5363  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Smooth_font_gradient/Smooth_font_gradient.ino
+e24be1ef0759331dd24022f4117505c14f2089c2d20ec5b765925106210d1cad  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Smooth_font_reading_TFT/NotoSansBold15.h
+f71f47f0331504709be3770ea549a369121759e2625fd8cc9db8495c5445e1f1  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Smooth_font_reading_TFT/NotoSansBold36.h
+35d4216343ba9643b0680b08551bd4250c4977ab5330b0ef140c16abd0b70a43  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Smooth_font_reading_TFT/Smooth_font_reading_TFT.ino
+c65e0accb72cc5287b8c55241a91c96de55e0d20a890b2008dd98632ad5060d3  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Unicode_test/data/Final-Frontier-28.vlw
+d5b88b62372c0dd76b4ef61074967018aaef39e93e11fac558d6044f2f3922aa  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Unicode_test/data/Latin-Hiragana-24.vlw
+f61769ae2e0d5c07c901599919144acef088fa83fe1f88b46d92ad853b0a930b  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Unicode_test/data/Unicode-Test-72.vlw
+6caebff1d323989310390892d33e2a2d27f20e50eb7625e9d4f0f839a7e6b8e4  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Unicode_test/Final_Frontier_28.h
+582aa4520f4c9578eba65dfbe99b3d6c150c4b84ab89e008bf278e11853cb164  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Unicode_test/Latin_Hiragana_24.h
+40100ae092e3d98c265183bd8fea2b67694bddd9cdd317e01c0cdcc03d323100  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Unicode_test/Unicode_test.ino
+1ec9b0f9f0951af10252ecb35dcfcdfef2b3d17f5a0710712c4574ec8fcaccda  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/FLASH_Array/Unicode_test/Unicode_Test_72.h
+6ebf531830cce68d53d1aac46397d8dd100adc202ed5bfe065f60fd92047046f  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Font_Demo_1/data/NotoSansBold15.vlw
+578fd91ce21516e7d27aab73a0a293aa402f46cb6db125e006e945e2a9a1e5ba  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Font_Demo_1/data/NotoSansBold36.vlw
+ca0eeed1a435e8713efc9fdfab5cf313e40db75351b0bab87d26ea43ebd0670a  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Font_Demo_1/Font_Demo_1.ino
+1c910353e4b75de3a845360366a8049354d5f1e25ef339c59f1c9ff01dab36e7  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Font_Demo_1/Notes.ino
+6ebf531830cce68d53d1aac46397d8dd100adc202ed5bfe065f60fd92047046f  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Font_Demo_2/data/NotoSansBold15.vlw
+578fd91ce21516e7d27aab73a0a293aa402f46cb6db125e006e945e2a9a1e5ba  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Font_Demo_2/data/NotoSansBold36.vlw
+767b206497aa0ab8eaf030961b44816763623ba94512734f294c1095c3b07d16  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Font_Demo_2/Font_Demo_2.ino
+1c910353e4b75de3a845360366a8049354d5f1e25ef339c59f1c9ff01dab36e7  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Font_Demo_2/Notes.ino
+6ebf531830cce68d53d1aac46397d8dd100adc202ed5bfe065f60fd92047046f  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Font_Demo_3/data/NotoSansBold15.vlw
+578fd91ce21516e7d27aab73a0a293aa402f46cb6db125e006e945e2a9a1e5ba  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Font_Demo_3/data/NotoSansBold36.vlw
+75b89cbebabca7c030b900c395c0155f02e3dc9bd68fa72e0a7a5f45e75de86e  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Font_Demo_3/data/NotoSansMonoSCB20.vlw
+f001ac5a463d930615be13e9b90df24bb00d8ecf0ca8bf17e082c2c59c553177  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Font_Demo_3/Font_Demo_3.ino
+0dde2563a4d7a95afb7aac1f462ff945f66ee272d2843b0adb6c3ca4931f5684  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Font_Demo_3/Notes.ino
+6ebf531830cce68d53d1aac46397d8dd100adc202ed5bfe065f60fd92047046f  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Font_Demo_4/data/NotoSansBold15.vlw
+578fd91ce21516e7d27aab73a0a293aa402f46cb6db125e006e945e2a9a1e5ba  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Font_Demo_4/data/NotoSansBold36.vlw
+06bb2b0d0f5f922665265692b2c23a33c490bcb51152c5d5f2e239cdf1bd9eda  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Font_Demo_4/Font_Demo_4.ino
+1c910353e4b75de3a845360366a8049354d5f1e25ef339c59f1c9ff01dab36e7  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Font_Demo_4/Notes.ino
+c65e0accb72cc5287b8c55241a91c96de55e0d20a890b2008dd98632ad5060d3  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Print_Smooth_Font/data/Final-Frontier-28.vlw
+89a86b910f0d03920284824b6b07e9ad235d16347bc977c55f2fb35065511bf8  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Print_Smooth_Font/Print_Smooth_Font.ino
+6ebf531830cce68d53d1aac46397d8dd100adc202ed5bfe065f60fd92047046f  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Smooth_font_gradient/data/NotoSansBold15.vlw
+578fd91ce21516e7d27aab73a0a293aa402f46cb6db125e006e945e2a9a1e5ba  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Smooth_font_gradient/data/NotoSansBold36.vlw
+1dd92add27cc72853d96dd7493a300eb3b59c2edaf5aa9e1665ea5cc5695e74f  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Smooth_font_gradient/Smooth_font_gradient.ino
+6ebf531830cce68d53d1aac46397d8dd100adc202ed5bfe065f60fd92047046f  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Smooth_font_reading_TFT/data/NotoSansBold15.vlw
+578fd91ce21516e7d27aab73a0a293aa402f46cb6db125e006e945e2a9a1e5ba  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Smooth_font_reading_TFT/data/NotoSansBold36.vlw
+9346b09386d4d4cbf809259ae7b26e2740755ccc3e1020dd629b738d4c42dfd5  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Smooth_font_reading_TFT/Smooth_font_reading_TFT.ino
+c65e0accb72cc5287b8c55241a91c96de55e0d20a890b2008dd98632ad5060d3  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Unicode_test/data/Final-Frontier-28.vlw
+d5b88b62372c0dd76b4ef61074967018aaef39e93e11fac558d6044f2f3922aa  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Unicode_test/data/Latin-Hiragana-24.vlw
+f61769ae2e0d5c07c901599919144acef088fa83fe1f88b46d92ad853b0a930b  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Unicode_test/data/Unicode-Test-72.vlw
+65ff7dd94edd3549685386e11e573aaf3fbb30a6cb8703b9900c66806d135637  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Unicode_test/LittleFS_functions.ino
+08d40997ddadbf1ff6db0214ef904f8b4ab63be46403199cb7e82b1fb664a394  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/LittleFS/Unicode_test/Unicode_test.ino
+c65e0accb72cc5287b8c55241a91c96de55e0d20a890b2008dd98632ad5060d3  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SD_Card/ESP32_Smooth_Font_SD/data/Final-Frontier-28.vlw
+3e555961267c0b3317a02b24485c6e27af2422ee4ed85f7ac6d0051df94dca13  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SD_Card/ESP32_Smooth_Font_SD/ESP32_Smooth_Font_SD.ino
+6ebf531830cce68d53d1aac46397d8dd100adc202ed5bfe065f60fd92047046f  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Font_Demo_1/data/NotoSansBold15.vlw
+578fd91ce21516e7d27aab73a0a293aa402f46cb6db125e006e945e2a9a1e5ba  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Font_Demo_1/data/NotoSansBold36.vlw
+c923d1d0a8cd9783ac529824c97e30720ddf4bc4f4fa924edc9424064b4dea57  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Font_Demo_1/Font_Demo_1.ino
+1c910353e4b75de3a845360366a8049354d5f1e25ef339c59f1c9ff01dab36e7  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Font_Demo_1/Notes.ino
+6ebf531830cce68d53d1aac46397d8dd100adc202ed5bfe065f60fd92047046f  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Font_Demo_2/data/NotoSansBold15.vlw
+578fd91ce21516e7d27aab73a0a293aa402f46cb6db125e006e945e2a9a1e5ba  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Font_Demo_2/data/NotoSansBold36.vlw
+01f06bc7d725ed1cd705d5a1e2e8a0493865b956ae335ce602ed429176a822e5  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Font_Demo_2/Font_Demo_2.ino
+1c910353e4b75de3a845360366a8049354d5f1e25ef339c59f1c9ff01dab36e7  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Font_Demo_2/Notes.ino
+6ebf531830cce68d53d1aac46397d8dd100adc202ed5bfe065f60fd92047046f  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Font_Demo_3/data/NotoSansBold15.vlw
+578fd91ce21516e7d27aab73a0a293aa402f46cb6db125e006e945e2a9a1e5ba  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Font_Demo_3/data/NotoSansBold36.vlw
+75b89cbebabca7c030b900c395c0155f02e3dc9bd68fa72e0a7a5f45e75de86e  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Font_Demo_3/data/NotoSansMonoSCB20.vlw
+c25caeb749c9d27836c6b13e0c4d46df80f83680455b21300e050366e1543a57  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Font_Demo_3/Font_Demo_3.ino
+0dde2563a4d7a95afb7aac1f462ff945f66ee272d2843b0adb6c3ca4931f5684  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Font_Demo_3/Notes.ino
+6ebf531830cce68d53d1aac46397d8dd100adc202ed5bfe065f60fd92047046f  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Font_Demo_4/data/NotoSansBold15.vlw
+578fd91ce21516e7d27aab73a0a293aa402f46cb6db125e006e945e2a9a1e5ba  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Font_Demo_4/data/NotoSansBold36.vlw
+0a0d4d6f4281e5258ff7e050cdb3e2f797ba26288d1acfd784bb2a83b1b19642  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Font_Demo_4/Font_Demo_4.ino
+1c910353e4b75de3a845360366a8049354d5f1e25ef339c59f1c9ff01dab36e7  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Font_Demo_4/Notes.ino
+c65e0accb72cc5287b8c55241a91c96de55e0d20a890b2008dd98632ad5060d3  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Print_Smooth_Font/data/Final-Frontier-28.vlw
+330f517a8df055b2c63a62ceebafc4f8780f1ba988aee5c02bcd765cae322609  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Print_Smooth_Font/Print_Smooth_Font.ino
+6ebf531830cce68d53d1aac46397d8dd100adc202ed5bfe065f60fd92047046f  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Smooth_font_gradient/data/NotoSansBold15.vlw
+578fd91ce21516e7d27aab73a0a293aa402f46cb6db125e006e945e2a9a1e5ba  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Smooth_font_gradient/data/NotoSansBold36.vlw
+409d86f3f5419ca8226f5c5beddc8aae2d348080d58c01f9cb2e94b5e64a6929  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Smooth_font_gradient/Smooth_font_gradient.ino
+6ebf531830cce68d53d1aac46397d8dd100adc202ed5bfe065f60fd92047046f  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Smooth_font_reading_TFT/data/NotoSansBold15.vlw
+578fd91ce21516e7d27aab73a0a293aa402f46cb6db125e006e945e2a9a1e5ba  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Smooth_font_reading_TFT/data/NotoSansBold36.vlw
+6befeb8827a6a3aa75a328a8c5eb74892509833a90d98228ac39217ed9499e8c  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Smooth_font_reading_TFT/Smooth_font_reading_TFT.ino
+c65e0accb72cc5287b8c55241a91c96de55e0d20a890b2008dd98632ad5060d3  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Unicode_test/data/Final-Frontier-28.vlw
+d5b88b62372c0dd76b4ef61074967018aaef39e93e11fac558d6044f2f3922aa  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Unicode_test/data/Latin-Hiragana-24.vlw
+f61769ae2e0d5c07c901599919144acef088fa83fe1f88b46d92ad853b0a930b  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Unicode_test/data/Unicode-Test-72.vlw
+9341267af86eba4002e8baa7cdb7560c832d7f9607be82c2f440428f8c7249c3  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Unicode_test/SPIFFS_functions.ino
+e6c54a656b4e5ac059f2d5c5d01167c767acb1e108909aa5af0cd1a5ec7409dd  lib/TFT_eSPI-2.5.33/examples/Smooth Fonts/SPIFFS/Unicode_test/Unicode_test.ino
+f434d9490ed6ce86ac7a99b49a61b91047a5e9b9213060bee866e76027dda4de  lib/TFT_eSPI-2.5.33/examples/Smooth Graphics/Anti-aliased_Clock/Anti-aliased_Clock.ino
+9ac644e5d7bfd6c81e020fce232fceb189dc9895a8a0ceea8c76c25a4060324f  lib/TFT_eSPI-2.5.33/examples/Smooth Graphics/Anti-aliased_Clock/NotoSansBold15.h
+c1463985d91440464413eaa8d3033c56c274b56b03982c00d5654a5ef00411a6  lib/TFT_eSPI-2.5.33/examples/Smooth Graphics/Anti-aliased_Clock/NTP_Time.h
+9ca46bb4dc8680708187b23a9c82d5d8fce43eb02b79ba83c571277520bee342  lib/TFT_eSPI-2.5.33/examples/Smooth Graphics/Arc_meter_demo/Arc_meter_demo.ino
+18b23bc62ec7a603fe84adb5bdffa73ce8ae533310bb023956b2cbac760fd28e  lib/TFT_eSPI-2.5.33/examples/Smooth Graphics/Arc_meter_demo/NotoSans_Bold.h
+31c3c18af254391154ed88d3b8111fce0b25c3004353fef034b1bcd8c88b86ba  lib/TFT_eSPI-2.5.33/examples/Smooth Graphics/Colour_Wheel/Colour_Wheel.ino
+736434f50007d089701e1020222b1633fa89a4bffba90af79793ec1910f09c29  lib/TFT_eSPI-2.5.33/examples/Smooth Graphics/Draw_Arc/Draw_Arc.ino
+d40c53035314455378e3a0f1126c6c09a3c19abf772936d1b2b51a34a268276d  lib/TFT_eSPI-2.5.33/examples/Smooth Graphics/Draw_Smooth_Circles/Draw_Smooth_Circles.ino
+d8a71dff0b9942367e0d3b8b2236c4ff0d3494164f2ee2e9eecc67bfd0bd9aca  lib/TFT_eSPI-2.5.33/examples/Smooth Graphics/Smooth_Arc/Smooth_Arc.ino
+848004109a03154b3cc3cb90bbe080420f8d1ae8f3e31a11a6e69834a41848e0  lib/TFT_eSPI-2.5.33/examples/Smooth Graphics/Smooth_Graphics_Demo/Smooth_Graphics_Demo.ino
+6a2bb48592844626e2a9b561b8bff629bbefc5c30a46fa730a083ba6d32c007d  lib/TFT_eSPI-2.5.33/examples/Smooth Graphics/Smooth_Rounded_Rectangles/Smooth_Rounded_Rectangles.ino
+a77d4598a7418e44a68b18be108cc358a1a3818436f0f5e88e631bd862cb4662  lib/TFT_eSPI-2.5.33/examples/Sprite/Animated_dial/Animated_dial.ino
+716eff13a638fa91a7dd4acad62d56fa6d49f7ec5c06c04b77bde4e97b91cb8d  lib/TFT_eSPI-2.5.33/examples/Sprite/Animated_dial/data/dial.jpg
+dfc88d0de33a81cbbfada692ef1b0a90427f0fd31c17ffc3fed6d4653e1b7117  lib/TFT_eSPI-2.5.33/examples/Sprite/Animated_dial/dial.h
+7e99afbba31edf8becb03aae9be2feb79dff1cd9ab1e59c4fd295523f08358f1  lib/TFT_eSPI-2.5.33/examples/Sprite/Animated_dial/NotoSansBold36.h
+4b3b2722746b2be97472ef86f6c4fdaf80f743d8c7fbacf6c3d8629af7590228  lib/TFT_eSPI-2.5.33/examples/Sprite/One_bit_Sprite_Demo/One_bit_Sprite_Demo.ino
+275e5cfefef6290458d2eb170f6a5b3104bdd917d8ccaa78825a0fbeb7802346  lib/TFT_eSPI-2.5.33/examples/Sprite/One_bit_Yin_Yang/One_bit_Yin_Yang.ino
+e3cb01c880c83d8fa76bdf1cbaf9a64f870fb68981d976fa6f2398b6dfe415ed  lib/TFT_eSPI-2.5.33/examples/Sprite/Orrery/astronomy.c
+bb349bf447902d54bcb76f12db624e34297a2027cc1613a41c0e2e0250ad8e3c  lib/TFT_eSPI-2.5.33/examples/Sprite/Orrery/astronomy.h
+4fd508d780a18d056b1c8fb18c3fdbeb860913eb6e284fdca5f0f5138830ae7a  lib/TFT_eSPI-2.5.33/examples/Sprite/Orrery/Orrery.ino
+0bc65730573ca265c325693b140564ad07e1ebf1a89898b13bb8dd8e5f9f55e4  lib/TFT_eSPI-2.5.33/examples/Sprite/Rotated_Sprite_1/Rotated_Sprite_1.ino
+c84d2d1638b17c2e839b99f2511bdc91ef6e8b3dd3163e98f72851a4618cdfae  lib/TFT_eSPI-2.5.33/examples/Sprite/Rotated_Sprite_2/Rotated_Sprite_2.ino
+39f3ba37adb5c860ec7644e63a41a422b1beb260fe945910be27a36ade7f81e0  lib/TFT_eSPI-2.5.33/examples/Sprite/Rotated_Sprite_3/data/EagleEye.jpg
+cb40817d021d403219a009ed783e4d7545762e729e6798192847076dc78b61e0  lib/TFT_eSPI-2.5.33/examples/Sprite/Rotated_Sprite_3/data/Eye_80x64.jpg
+f50278d65c9289e65afc0c694cecd7df297a1c07600814ba414f78a2ee546a5c  lib/TFT_eSPI-2.5.33/examples/Sprite/Rotated_Sprite_3/Rotated_Sprite_3.ino
+488e7d5355a470f5506313ad6bd13b374a607212b3b9ee449cdd58fa628bd297  lib/TFT_eSPI-2.5.33/examples/Sprite/Sprite_draw/Sprite_draw.ino
+4a927ed041c4c610368918dafcce4c0d3ee2d70cfc942622f284ba3adeb470ca  lib/TFT_eSPI-2.5.33/examples/Sprite/Sprite_draw_4bit/Sprite_draw_4bit.ino
+dec6fb89faeaf1cd34bb0c6dbe41dc67e418cf881cf98f1b63fa3e4a680e68b4  lib/TFT_eSPI-2.5.33/examples/Sprite/Sprite_image_4bit/sample_images.h
+b4f4779578b9b0efa9fd5daed955d21023b4688b3ae57a0940f9ba60121aeeb8  lib/TFT_eSPI-2.5.33/examples/Sprite/Sprite_image_4bit/Sprite_image_4bit.ino
+a87cc3577459be19a42a47b5071c2e7f0232e15a62910ec044c13fe1aabe2780  lib/TFT_eSPI-2.5.33/examples/Sprite/Sprite_image_4bit/starImage.cpp
+6aff3e7a72ce4d0d2791dec228dee96f5763fb7da2214229a0f71dbe61912495  lib/TFT_eSPI-2.5.33/examples/Sprite/Sprite_RLE_Font_test/Sprite_RLE_Font_test.ino
+0c66d6e5d8f8d14ed21176c7c4718c1364e09b18ef19e131f151e1866884a7b8  lib/TFT_eSPI-2.5.33/examples/Sprite/Sprite_scroll/Sprite_scroll.ino
+062ab39a9cae30c4001bf35c6d97c9bee12627cd50ea3168158489aac7fa606b  lib/TFT_eSPI-2.5.33/examples/Sprite/Sprite_scroll_16bit/Sprite_scroll_16bit.ino
+fad60d52c2525d0c29fe57b7dbd90556a83c5d5ea2fa801bc2ee8e2e12980513  lib/TFT_eSPI-2.5.33/examples/Sprite/Sprite_scroll_1bit/Sprite_scroll_1bit.ino
+a0c4987c3f6552484864130e99437a7752faa86564f6baaa9d68d24b9cecb7cb  lib/TFT_eSPI-2.5.33/examples/Sprite/Sprite_scroll_4bit/Sprite_scroll_4bit.ino
+f34f4b0d60445ff23baee8e3014194a5a8544c9c22aaf4b41575aa39e99e2d3a  lib/TFT_eSPI-2.5.33/examples/Sprite/Sprite_scroll_8bit/Sprite_scroll_8bit.ino
+1165ffcb0715ad4c7a5ad705d0d759cfdc559840b5df5aaa9ec21f56a31190b4  lib/TFT_eSPI-2.5.33/examples/Sprite/Sprite_scroll_wrap_1bit/Sprite_scroll_wrap_1bit.ino
+1666129862732922ca652bf9fd9eb161a87aab115bca64f7ec56d95b1b2fc740  lib/TFT_eSPI-2.5.33/examples/Sprite/Sprite_TFT_Rainbow/Sprite_TFT_Rainbow.ino
+72e35390fd412d5c348a914bc888e81a18af241e0d26815e030c4b068c166a3c  lib/TFT_eSPI-2.5.33/examples/Sprite/Transparent_Sprite_Demo/Transparent_Sprite_Demo.ino
+a876933ab6a154e6cd1883a379a891ba1715db5fba17d6a1d88e6066c72825e9  lib/TFT_eSPI-2.5.33/examples/Sprite/Transparent_Sprite_Demo_4bit/Transparent_Sprite_Demo_4bit.ino
+a390c8e938d7ec120a6d419ed767f76ed8380a53fd1dbaaf3b3ea854118d8cdb  lib/TFT_eSPI-2.5.33/examples/Test and diagnostics/Colour_Test/Colour_Test.ino
+877d22e7d8e3b7490337c7e356d329a6dfb62ae466d759cfcdce7ada4b6db51e  lib/TFT_eSPI-2.5.33/examples/Test and diagnostics/Read_User_Setup/Read_User_Setup.ino
+0a6444a524c42442a5a9d84439fab6bfcdee0d417b510e7d11b35a8bccaf016a  lib/TFT_eSPI-2.5.33/examples/Test and diagnostics/Test_Touch_Controller/Test_Touch_Controller.ino
+81a191ee8fea2fb5cdab934b41ecc54b516be5d3c9708bd7de1cfe8439b5b5cd  lib/TFT_eSPI-2.5.33/examples/Test and diagnostics/TFT_ReadWrite_Test/TFT_ReadWrite_Test.ino
+06d8e24d9c512ffe7ef061008b0b87e4d638187aa95962f1d6e7fee0a290f626  lib/TFT_eSPI-2.5.33/Extensions/Button.cpp
+0b6b4b651014bcdc261e0cbf2402feb818f627c78dce4638978499b33938cba5  lib/TFT_eSPI-2.5.33/Extensions/Button.h
+336cbb87b8a456d2fb2038a63e26d5a0de29b11cec2c34548a54d748f20a3382  lib/TFT_eSPI-2.5.33/Extensions/Smooth_font.cpp
+49bd9918b6a4cada7a2e8d9d37143ff59761d57d66b4d829b01a2ed6405b5c0c  lib/TFT_eSPI-2.5.33/Extensions/Smooth_font.h
+aa4f44c75ce5bf23ffb1db405e6b84b01836ad22d90987e6bf1db006d6e06e94  lib/TFT_eSPI-2.5.33/Extensions/Sprite.cpp
+d8d16857e411b0450ff41425f8c6389571445a6d6378bc397be172c755209686  lib/TFT_eSPI-2.5.33/Extensions/Sprite.h
+143a7a38f9451d0d3ab4a0aed37a8b4c890edceb135419f6bbc8ed45d4283291  lib/TFT_eSPI-2.5.33/Extensions/Touch.cpp
+ece7399c74d3937e6f3bc5f2c6cdcdd68be02ac40d041fed5ab9ed58386df735  lib/TFT_eSPI-2.5.33/Extensions/Touch.h
+c45ab81a5e5e6a458ef508c366e34d558cf1f1a67632c391275e29401df3f939  lib/TFT_eSPI-2.5.33/Fonts/Custom/Orbitron_Light_24.h
+c30af4f0c06bc7841230e692c5df206646bb03af2f5cbc5aa3619734b636aa4a  lib/TFT_eSPI-2.5.33/Fonts/Custom/Orbitron_Light_32.h
+bf9e12ee57bb992928b0e029259a1d6dd291244f17b046ba57b4e32250d307f3  lib/TFT_eSPI-2.5.33/Fonts/Custom/Roboto_Thin_24.h
+35f44c438df9a6c397c6dd11f6b82384c4b9eaf8aa0952ff31393800a7bda5af  lib/TFT_eSPI-2.5.33/Fonts/Custom/Satisfy_24.h
+f063da110e14df4baf9b02aad30385d9512ec5d3b8a07c64fd7a334e87ed14d6  lib/TFT_eSPI-2.5.33/Fonts/Custom/Yellowtail_32.h
+27f47a9506aa1cc25bb3acf8b50a6458d567babcbcc53ff6d34a6aae6ed85e0c  lib/TFT_eSPI-2.5.33/Fonts/Font16.c
+bb6c40ee31c365f16ac1265c563f075c409a8d6c021789b58fd16ef4b6e7bb14  lib/TFT_eSPI-2.5.33/Fonts/Font16.h
+46c06535ff7db0df0486bd06d777523164f7355852a449440bc9bf1026a6d4ee  lib/TFT_eSPI-2.5.33/Fonts/Font32rle.c
+ef7c116521e481d8f68030d85a3865ec9a6d05f8d499dbfe716fa68c5b69f3ee  lib/TFT_eSPI-2.5.33/Fonts/Font32rle.h
+9ea67ca9000b8f32c8c0de4a5ae663562ded42cdfc12ef3188cc5a459da340d4  lib/TFT_eSPI-2.5.33/Fonts/Font64rle.c
+90c79dd168453264979ef8887af3f9d43dda7770fd1b8e28322bc3461fb42b72  lib/TFT_eSPI-2.5.33/Fonts/Font64rle.h
+1e54094a85a6ac106c87463adec7c66fc84c44e46a58391cd4adffdc361cd89e  lib/TFT_eSPI-2.5.33/Fonts/Font72rle.c
+e3ef2df08650f3e2ba1ad00e11ee1d3679827cbafea69e5aa014b8f82896f2a7  lib/TFT_eSPI-2.5.33/Fonts/Font72rle.h
+3ab7d1166cf8cd64e0a3ac067692a47f06c3d2ee194ec2f63c884269ae60b5aa  lib/TFT_eSPI-2.5.33/Fonts/Font72x53rle.c
+2e567d5c90c00a809026981c41f563e033f66bc19619bc966dfbddbc22b087ed  lib/TFT_eSPI-2.5.33/Fonts/Font72x53rle.h
+9fa28159cba38e99f4d047684890aeee0e71518c77b8f28264590a4d19392e79  lib/TFT_eSPI-2.5.33/Fonts/Font7srle.c
+adaa3af4db90c5add4628a07b8b8bc573c0b31433b9dff1c2fc92c8757bcb49a  lib/TFT_eSPI-2.5.33/Fonts/Font7srle.h
+cafc2786015e2cdcf6fc6f6847fa7fadeb89f24fa342b733c7c77a7682301155  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeMono12pt7b.h
+dba6ebd28493f6d77d2164cc2802df16fed1df40ff3cdc41428c0bd6e58f4382  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeMono18pt7b.h
+839ddd4c2be473154cb82d8e59b0b55317724f9087fb487d9206e48b0a205169  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeMono24pt7b.h
+a99faea6fc28743e6274865eb9ddda06729d0e1d61e049efcf066802dcfc4f19  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeMono9pt7b.h
+53aa555d523a600d1ec8e9db340dfb03b0ca518502ec6cfb3033788d79b8bfc8  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeMonoBold12pt7b.h
+23e469ff72b1249f911ef68755f476b49a31d288bf37c12697b7d5fb3e39a31f  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeMonoBold18pt7b.h
+12259b9479856b8e54183f436d36d6e139d1e564dd0d76ff1fda1ab479f0582f  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeMonoBold24pt7b.h
+9aee9cce7c2416e1b1c9669185226ac7c33e3813c4353f6bdadf26f87727d61a  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeMonoBold9pt7b.h
+08daf9cbf9740bc2e65493158dd91ad7a7423d13c415a7805aec13dd24c29190  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeMonoBoldOblique12pt7b.h
+61bfe16e7b9f59a9261b9dd23b354a837530deac46f87a84fddecf58fa790cca  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeMonoBoldOblique18pt7b.h
+bb559dc9cb192937b2a9913ad20ca2064b07ff20f5cc29b612e9f6084a0af25e  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeMonoBoldOblique24pt7b.h
+30da5ea0779b286d466a6470dfedd317428f627e338f3a1fc865d009f070a0dd  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeMonoBoldOblique9pt7b.h
+89c88aa32556708837dc4a2619de3a6498107226e6141416e775dace800eaaa6  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeMonoOblique12pt7b.h
+7ba43ee37b293d21937121cabca8c6589477e90c36ddc372ffd07b1106c2e861  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeMonoOblique18pt7b.h
+b908bb1f719864173515e2fd377d3135871e56a51f58f66211fc81066057fbd6  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeMonoOblique24pt7b.h
+5c149706d5afad5a7172728610d44e00927c85eacf0208f070cdf30de32eb2cc  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeMonoOblique9pt7b.h
+18e5bf0d3706776714ab14cbc63fbe14e9ce6175af1877c59e8445f8bd906120  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSans12pt7b.h
+4d5dee62cfae56ded2b1cf17501e231dbb28fd2c3e5d67daaa88135e94f612ac  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSans18pt7b.h
+4162814ffe26ac40be001ac1608ed8b8d7ba408864fb38a7e4ae94c59a753be6  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSans24pt7b.h
+3547eea784906fb21070e92ede3bf97afc6614f26a9aabd6d0f0ad1749662969  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSans9pt7b.h
+584ef1f600d8f8ae8b1e0c0726af1b0eedcff5978a0a8e0b7f48d5bed3f2c38f  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSansBold12pt7b.h
+9ad6e251f11ccf6d541cad814b60386825bfd7e1afa10e1adec75af56ef8bc8d  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSansBold18pt7b.h
+c0f001bf462d9677b152852ce32b359227d6556bc34b114c0142662816fc36f7  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSansBold24pt7b.h
+cc48bca687b3ff0508ace9dfb439e03943672c3c3306586885251cff2cf7a3f4  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSansBold9pt7b.h
+e1d09ee173e5c02459a8c2ebcc57c18a824202541241972aded2bf7f812e36c6  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSansBoldOblique12pt7b.h
+bca6342f7abf9cf5a4ff135fb591af329d0c5de7d7aede406f171bca2dc45d40  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSansBoldOblique18pt7b.h
+341af6d70b65fb9485c00a106a3118a4c3b478c2d7f2f23e6dc039afc012abae  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSansBoldOblique24pt7b.h
+bd3094a6a07e681c1f29af0a5d18371d88354fc18621f242d211eb0c6bcce10a  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSansBoldOblique9pt7b.h
+9817cf194a03238275f52c46493b9ea0cbd40fb1e140e137bdd04b2c38b64cc3  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSansOblique12pt7b.h
+66f6c858e2a41db874d976559e971aa1fd243ce67497627d032a4a21eada680b  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSansOblique18pt7b.h
+461e27356553f05be1dd20873833314764d2bceb673495c96b8c62f666745945  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSansOblique24pt7b.h
+428a13f7c5fd2b8a28cd6484d1f4d3fe8996304116aed14899fea65f416c054d  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSansOblique9pt7b.h
+a5b9d521f6caf0d66b72cdf8d7d0dc24e88cf5eac534c125efa88e18206d6278  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSerif12pt7b.h
+e40674814569e6e8ace652241a28153f4a0545b2be263a202470742bf15e8250  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSerif18pt7b.h
+f0fba3f8e0a60117e42b70788426e388baa1f66bca0f18e5722c456b4f17fe91  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSerif24pt7b.h
+9c793b10d814981a8bafb8d44bdcbd0276f157917efaeed39bd02993048d895b  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSerif9pt7b.h
+f88e3eb07c91ff64254063639aab9ecabb6e5e4da9038b93277f3d22ee6b05f6  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSerifBold12pt7b.h
+f1e12e09c8707570dd62852c7e4fff9b3a248b53180bc9b06e6d24ec1bd62d43  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSerifBold18pt7b.h
+2243a6e1bfc30d9cdcb77bd3a6bc11284db055dd28a3ae1dc3e58e62a1563d40  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSerifBold24pt7b.h
+c94063a5e0d496c7322500d8e8ef3351483e50497a1dfa7dc5ac32fa203a4469  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSerifBold9pt7b.h
+072553e5b212e7b6870055db14c6f5e028d350277d9c5efa241a92151fdb92cf  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSerifBoldItalic12pt7b.h
+7f2f35c41d7d4baeef002d422a74dd9b4771cb4cdc265391debe3f4e99ba6612  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSerifBoldItalic18pt7b.h
+146b89f544b1c81f0b88dd3fe1255a29b80c843f3a4a0edbf9a98a13693bd108  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSerifBoldItalic24pt7b.h
+f48b95e218f28c6b94c5658a705f6048a093bf31373bee98f6a2320c4d56cfb5  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSerifBoldItalic9pt7b.h
+59d93e17b5880ea4f53c33e0bbd41d9bd5e193c15b551d5773333df6d42a4bc6  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSerifItalic12pt7b.h
+8d52e8449adc9f19124f3ddc1daf56530149b35b2b10adb73c22ad14109fed92  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSerifItalic18pt7b.h
+7516f72716057841b71224c78a5cbefdefbbcf7626db2455730411e5387be0c6  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSerifItalic24pt7b.h
+4967bb4a9e420b7904cc06c03fe1fcf2336a4e187d7d5895e6e38d9672bbd55f  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/FreeSerifItalic9pt7b.h
+1dca6e2048eac1f647c6aa504d472fe317583db7db8ca16f61399de5dec0e200  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/gfxfont.h
+88fbd81b248caadf3167ba4b8ed394dcd95bd09e553ecf0d3088c733cb6033de  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/license.txt
+3e1f68f88a34d3f1d60fa092697c6022e38716934dc3237b914a888a9f45d3b0  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/print.txt
+a887f5cabf1510c33c484aed79f3716ef690b38992bc0b6c2fce84d570f49af9  lib/TFT_eSPI-2.5.33/Fonts/GFXFF/TomThumb.h
+7aff29845dbb1ff648ca323b415dca7c16ea3877996dff2cf6d2629ebd78a8b1  lib/TFT_eSPI-2.5.33/Fonts/glcdfont.c
+959bfd6f890053a81216bf067bdf969777380717a9e684d6cf6fc1bc6b223c8d  lib/TFT_eSPI-2.5.33/Fonts/TrueType/Not_yet_supported.txt
+138074f84bd17c7a46eb9b46d1595155977070ea76695ab06f51f057834b863c  lib/TFT_eSPI-2.5.33/Kconfig
+60c3dfe1d2661c841e49a6e34dfecabc8c9d21ac711aa5de23361363cc3243bd  lib/TFT_eSPI-2.5.33/keywords.txt
+915a314a04c178cd2a5b11f41e71407e2e8c3698d9c974baa2ae658125290215  lib/TFT_eSPI-2.5.33/library.json
+0ff52523d86b7122954bfb655538d98c73d13aa07c9d2caa8f764d3428614838  lib/TFT_eSPI-2.5.33/library.properties
+a4ec06570a17410a4b9d31c559c6d2ed0473837736417d0282439c4dc82cbb30  lib/TFT_eSPI-2.5.33/license.txt
+4b1d0ddc2703fd14b58a32a3de424d3005e586f633e1512b1a30ce0c978fab3c  lib/TFT_eSPI-2.5.33/Processors/pio_16bit_parallel.pio.h
+6a76636a03a8961ccde20b50092940df386ecf23b01fe470f76516376b817329  lib/TFT_eSPI-2.5.33/Processors/pio_8bit_parallel.pio.h
+52ce1b0d483692b1d77192d04e4d33f7900653a16b266b667d2f352eeb9fca02  lib/TFT_eSPI-2.5.33/Processors/pio_8bit_parallel_18bpp.pio.h
+d7288647bac2ede19e29fc7afa54b3355d343fc9ff29aaca70244bd74cca0185  lib/TFT_eSPI-2.5.33/Processors/pio_SPI.pio.h
+4e63d0ebc9f2dd3fb39cbbd3f6296bdd34f521a22d7f8169c4c2cf3b845f92fa  lib/TFT_eSPI-2.5.33/Processors/pio_SPI_18bit.pio.h
+addbc290bee862ad788b754f156139832e904e5309ef781c0acf6a9ead20b867  lib/TFT_eSPI-2.5.33/Processors/TFT_eSPI_ESP32.c
+76923d8bf601113817bbbd1246035289cb229bd35819108adf01c33c651f3f50  lib/TFT_eSPI-2.5.33/Processors/TFT_eSPI_ESP32.h
+1aa1c11359ac38c6905aec044a21b4c4ce1cb080b8c07de43b91cf94376f9c09  lib/TFT_eSPI-2.5.33/Processors/TFT_eSPI_ESP32_C3.c
+7d03512ba4ef5fb0897befa32fd940c53fef3aa69bb221133dd642c13cd625bc  lib/TFT_eSPI-2.5.33/Processors/TFT_eSPI_ESP32_C3.h
+ae4f4c288f2a9e4d09d58c2841ba51824a00dbda36cf30c5be1568f7921467e6  lib/TFT_eSPI-2.5.33/Processors/TFT_eSPI_ESP32_S3.c
+b2872b6eaa67db6524a253124e3e82f859f0a4a520753507c162d1ba773b9a97  lib/TFT_eSPI-2.5.33/Processors/TFT_eSPI_ESP32_S3.h
+396bd0d479581fc36c9904426ee3fe9c2bda052291a1bc39bcb9db59c48fec2a  lib/TFT_eSPI-2.5.33/Processors/TFT_eSPI_ESP8266.c
+020d86ee4ef291a269f134425ae150888aea54ad445e764219e4e8dfb048da6f  lib/TFT_eSPI-2.5.33/Processors/TFT_eSPI_ESP8266.h
+4fcf43f084becf0f7f555524d558c0a0af2eb9dbdc2748abb0b6268b69639c01  lib/TFT_eSPI-2.5.33/Processors/TFT_eSPI_Generic.c
+aea01cc6bd95cc34c55080cb8f2ceeeedbb84b03c64fcc669da2e9dce795482c  lib/TFT_eSPI-2.5.33/Processors/TFT_eSPI_Generic.h
+1ad03553939e6fd0bfa180272f107f5e500b73a9ce770d563fdada5c3a96bd4b  lib/TFT_eSPI-2.5.33/Processors/TFT_eSPI_RP2040.c
+c4ef298a893a70baa3f0f851e7d6282c25ee019dbfe197e1141915fd86ebbb11  lib/TFT_eSPI-2.5.33/Processors/TFT_eSPI_RP2040.h
+c9490b4b5175856eee9cd9d1805d58edaa007620dfae93cca276f4e4bf5edaa2  lib/TFT_eSPI-2.5.33/Processors/TFT_eSPI_STM32.c
+df5cd377ad7763b361f4339043c0c46976d6abf53748e8df99884911f803e8db  lib/TFT_eSPI-2.5.33/Processors/TFT_eSPI_STM32.h
+47f0f31c7472290a865234317ff7c871aabd495e1506d72e9abd8aa6248cb3c0  lib/TFT_eSPI-2.5.33/README.md
+f1522394cc285206c108713654134dd59df4eacfa4ef8d9f5510fa8818adc294  lib/TFT_eSPI-2.5.33/README.txt
+5a351798a81710856f6c7d12f8249965a88e40e4113608c98da4c524fe4d88ab  lib/TFT_eSPI-2.5.33/TFT_config.h
+5616c512237f521b3b19c454adcd4e77f4747e29b26345d2dac4f9c6d6635178  lib/TFT_eSPI-2.5.33/TFT_Drivers/EPD_Defines.h
+d0c4829ccfdd711da680f1601083d127dde4ce06a8bde8ac6b35ae2c89665cba  lib/TFT_eSPI-2.5.33/TFT_Drivers/GC9A01_Defines.h
+572b80226b01a22dcdb7b2a2ef340a3671724ab4a44c1a957ad315f537edbb89  lib/TFT_eSPI-2.5.33/TFT_Drivers/GC9A01_Init.h
+d0b2f6d1c26c8344e03fcd62b7b39a3c244df0da54ffb88bc7f53abdd8f1c3d2  lib/TFT_eSPI-2.5.33/TFT_Drivers/GC9A01_Rotation.h
+7b02ed8a6c8ec3dfd097962f484a2bc623f88c4cdc6a39ad7c793cd19a797a21  lib/TFT_eSPI-2.5.33/TFT_Drivers/HX8357B_Defines.h
+3a7d7e6bba977d02ccb2a1062873f60c1c68afcdfa560c60050fb0befaa85b15  lib/TFT_eSPI-2.5.33/TFT_Drivers/HX8357B_Init.h
+814eee3a5200cbd31a8be673fb826d2fc7d122e8495a93d7591b1a4bde1f1316  lib/TFT_eSPI-2.5.33/TFT_Drivers/HX8357B_Rotation.h
+7b02ed8a6c8ec3dfd097962f484a2bc623f88c4cdc6a39ad7c793cd19a797a21  lib/TFT_eSPI-2.5.33/TFT_Drivers/HX8357C_Defines.h
+32c772acc058f244716b8761a5ee5bcbdbe00b00a3921fcd949c7b2878cce477  lib/TFT_eSPI-2.5.33/TFT_Drivers/HX8357C_Init.h
+814eee3a5200cbd31a8be673fb826d2fc7d122e8495a93d7591b1a4bde1f1316  lib/TFT_eSPI-2.5.33/TFT_Drivers/HX8357C_Rotation.h
+48a6c2c0faa45b0aff602822559e1ae952b8fc3fe78aea117cafb45cb086efca  lib/TFT_eSPI-2.5.33/TFT_Drivers/HX8357D_Defines.h
+cac10447ed329ff88a555f44fba21fa3d66a673feb700f3ecbdbecb7ebf90d80  lib/TFT_eSPI-2.5.33/TFT_Drivers/HX8357D_Init.h
+2d4f5340ddcd3dce600b8b4a4fa771fa6185d699438d213afc2c412e817e372e  lib/TFT_eSPI-2.5.33/TFT_Drivers/HX8357D_Rotation.h
+d9c9ecd59f04a37f08cbfbad9b3882d10af369585b1c0c53f97333db59f01515  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9163_Defines.h
+af98f552391fc429617197e5179212d6bbf8e8f39bddee26f76841baf3c674f7  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9163_Init.h
+b47f42e609cb649f8ad261b308795f580de04ea8e130de770c5352a1e4e9e1ad  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9163_Rotation.h
+a22313a81bb78189083a8569f3a74c1ae22f57eadcabf07028269f185207e216  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9225_Defines.h
+12bffd70e12621af7e41d1b186ed477b6ba4b761aae58eec1e9fa51e01f93061  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9225_Init.h
+f900690759d725c34d537b4684dd793f6bc393e1d39b8f4e8ab1e0885968105f  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9225_Rotation.h
+6a14f1a3bbc24409c9d751c6f5d14dff834639e8c5427371402151dc52f3e71f  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9341_Defines.h
+4c50457710f93ff3955f3aad2512775578a4084690613b064a658275d911d740  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9341_Init.h
+170009c8447e6dbe824a2cb72a0170c6acf8ee35c5243addefe71d2408b3e613  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9341_Rotation.h
+6bcd3c8db020c29a3fbd9bd161453912f9436cdaff418a949f5b2e32bad7ebbc  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9481_Defines.h
+ce25beb0599458d53f6af636085b222a9871820c40154508e18d60e930b904a4  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9481_Init.h
+9a7fda7979b41d57345f44800f2945ce53a8f1a66d743b19e473b3b4914cd98a  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9481_Rotation.h
+1409fbce3d96db55af4ad303f38a2d7901e699ef495c94f0290f075c5b9da481  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9486_Defines.h
+0d219e5959e6978225de17c31f258ddda948d37c227a96f110a4096bae1dc0d6  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9486_Init.h
+2c99004628b30d588ffb06cbff05b878762e54ffeceee389cd40e491c1d63fab  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9486_Rotation.h
+6bcd3c8db020c29a3fbd9bd161453912f9436cdaff418a949f5b2e32bad7ebbc  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9488_Defines.h
+c11490817421ae641ef4c6b34b0d201221d60ee64c7757e67880ccaf8974a6a4  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9488_Init.h
+fd26e139d39da3a54461e8107efb1ef5cbbf415089fa1f4c104f7efd4c307412  lib/TFT_eSPI-2.5.33/TFT_Drivers/ILI9488_Rotation.h
+6bcd3c8db020c29a3fbd9bd161453912f9436cdaff418a949f5b2e32bad7ebbc  lib/TFT_eSPI-2.5.33/TFT_Drivers/R61581_Defines.h
+2db4b3bf803279e03631af3286bf3fe71a5938f7b50312627554f3363dbb9ab9  lib/TFT_eSPI-2.5.33/TFT_Drivers/R61581_Init.h
+a77501cbe3ca2117710b92caace0f860cd9f42632c1b070a5fd2775521599323  lib/TFT_eSPI-2.5.33/TFT_Drivers/R61581_Rotation.h
+533232d439b7fcf2c72d70b357269bc0316138de0076a67d2eb5d3e430da3fd5  lib/TFT_eSPI-2.5.33/TFT_Drivers/RM68120_Defines.h
+d34dfceebcc0e33e025e9052c9e6856a5680cb4d553421797051592b2714e0d6  lib/TFT_eSPI-2.5.33/TFT_Drivers/RM68120_Init.h
+bec2cd3d2a0ede2982ebdfcd14bf08e467836a5991bf5e57c1cfe9d114d7e155  lib/TFT_eSPI-2.5.33/TFT_Drivers/RM68120_Rotation.h
+6bcd3c8db020c29a3fbd9bd161453912f9436cdaff418a949f5b2e32bad7ebbc  lib/TFT_eSPI-2.5.33/TFT_Drivers/RM68140_Defines.h
+36b4327413c8743779cda5b855ff45507005d9a9430316aa2cb7bf273ff885bf  lib/TFT_eSPI-2.5.33/TFT_Drivers/RM68140_Init.h
+40b6de39cc37db155036a2aa53e3d4e7ea640a68a03640a8166e63fe163be6db  lib/TFT_eSPI-2.5.33/TFT_Drivers/RM68140_Rotation.h
+449764636c1b570cbbbc1ad48f9ccfde3d0aff0a395c5d183a7bd6fcdf14aba6  lib/TFT_eSPI-2.5.33/TFT_Drivers/S6D02A1_Defines.h
+c7dd5ba1ce05f4cf6d1e9833337a4ed4f97642759d93a1653d3d2b0f4357846d  lib/TFT_eSPI-2.5.33/TFT_Drivers/S6D02A1_Init.h
+a9d2a40def91d565d1fc45b24b8e7ea19881fa84bdd8684d5b691121130137cf  lib/TFT_eSPI-2.5.33/TFT_Drivers/S6D02A1_Rotation.h
+c12b538a2a4dab520a914cb045f23e3d8b8595d5482f58851a33b0d7122f0879  lib/TFT_eSPI-2.5.33/TFT_Drivers/SSD1351_Defines.h
+7bc64ee8ccaa8cb95bdc93538277f347d1a330518ac0f110e439be2f09f4967c  lib/TFT_eSPI-2.5.33/TFT_Drivers/SSD1351_Init.h
+9efe71a383e29423498ba3b96ce0923fad12cc823b1c2197d46266885b8d472f  lib/TFT_eSPI-2.5.33/TFT_Drivers/SSD1351_Rotation.h
+93eb99365e6966e34e51f27b582ff42e88ae87cd533d08505125f7113737025e  lib/TFT_eSPI-2.5.33/TFT_Drivers/SSD1963_Defines.h
+11a21f71139c4c55884111e0d13ae2bc63675e6e0d1f19ee31ca666f69b68427  lib/TFT_eSPI-2.5.33/TFT_Drivers/SSD1963_Init.h
+63369bcd12ce481dc85e03c680c3cde0d3109a6f7f266d13aa42d79ccabcb1ac  lib/TFT_eSPI-2.5.33/TFT_Drivers/SSD1963_Rotation.h
+39119a018546c31e89d16e1a679a008d2e44512827da2dfca9ec5eba7842cdbf  lib/TFT_eSPI-2.5.33/TFT_Drivers/ST7735_Defines.h
+dbf455a703d92594c8207af41f96f781bbe50ade03a9a10fdb0b8ef00bbf269e  lib/TFT_eSPI-2.5.33/TFT_Drivers/ST7735_Init.h
+26510a8f38048182a0ef44aed852d9ef53ffc6aa3bf61c90872cb6d4311d02d4  lib/TFT_eSPI-2.5.33/TFT_Drivers/ST7735_Rotation.h
+0315a1cef6806344dc657f358a74b73818ce6c0ea16959bbc1948d8940acf795  lib/TFT_eSPI-2.5.33/TFT_Drivers/ST7789_2_Defines.h
+c5b89dd30f5541c415808bab301b5429147f826e32b217159e6e2873dd3052d3  lib/TFT_eSPI-2.5.33/TFT_Drivers/ST7789_2_Init.h
+39d257e5a4ca9dadd3fd238692115587263206997ba7e4209907f9d973f7fb5f  lib/TFT_eSPI-2.5.33/TFT_Drivers/ST7789_2_Rotation.h
+464bccf0a1faffe6f95567f02b7fd8fcd92e43f3ccd03a6356fa2eaf6edfdca8  lib/TFT_eSPI-2.5.33/TFT_Drivers/ST7789_Defines.h
+fd735843a1489c001abac6f9462b30a5c3bc79f66c77587783039db81f0f315b  lib/TFT_eSPI-2.5.33/TFT_Drivers/ST7789_Init.h
+39d257e5a4ca9dadd3fd238692115587263206997ba7e4209907f9d973f7fb5f  lib/TFT_eSPI-2.5.33/TFT_Drivers/ST7789_Rotation.h
+331ca2a4c10f41970b405ae8dcdb5aa177cf9e7cadbdc20f73d818bfc9d4d7e5  lib/TFT_eSPI-2.5.33/TFT_Drivers/ST7796_Defines.h
+cdd9c887c1dddbe67bd3d787376e9c3dac635b54fc227493b1a82b7474a17a95  lib/TFT_eSPI-2.5.33/TFT_Drivers/ST7796_Init.h
+8e582c55de898b7f2f37b1111b01c7d8003944e38961c4569c6aa832ffaedb1f  lib/TFT_eSPI-2.5.33/TFT_Drivers/ST7796_Rotation.h
+d8e25c7bc96b920766e608b6b1fd7be7aed2aac3f179d0cc0fdd48ac1dfe40f4  lib/TFT_eSPI-2.5.33/TFT_eSPI.cpp
+f90f13eade3d360c346fb91cf383e21eff1774596a9b9ed3a7b346626e0ca9a1  lib/TFT_eSPI-2.5.33/TFT_eSPI.h
+cd828edcff06f4026e2ec03dbaca72792c070b3c919eb3ec75d8fe9a2abe4a6c  lib/TFT_eSPI-2.5.33/Tools/bmp2array4bit/bmp2array4bit.py
+d3d27172368fcf7cd6a6d0097a31cf619494abb933e908338405db22c3d9803d  lib/TFT_eSPI-2.5.33/Tools/bmp2array4bit/README.md
+b71bc8364267bd442614f3ac4da0e2aa0eb2f6d2842c560ab1f02a68f6d3ef38  lib/TFT_eSPI-2.5.33/Tools/bmp2array4bit/star.bmp
+047e5e1b24815deda1af9071fee9396f9234bc206d3695f9c60dba506088565d  lib/TFT_eSPI-2.5.33/Tools/Create_Smooth_Font/Create_font/Create_font.pde
+98f3da859f7cc3d71fbcd91f1b12adf389e1ee2a33b66fa413be31be255a4929  lib/TFT_eSPI-2.5.33/Tools/Create_Smooth_Font/Create_font/data/Final-Frontier.ttf
+314659cdff37c858e354d31e855e4bf54be07d03bb4ef40714933d433a951d44  lib/TFT_eSPI-2.5.33/Tools/Create_Smooth_Font/Create_font/FontFiles/Final-Frontier28.h
+24f2c813d3723a675f26e819807deefd61316500523f20912a02900ea4d36bd8  lib/TFT_eSPI-2.5.33/Tools/Screenshot_client/Screenshot_client.pde
+482c3bd5418148f14b8f65d3539d18ce13895aa19526cf61019e6d3ebc36537b  lib/TFT_eSPI-2.5.33/User_Setup.h
+00f187505b059670d6f252c7ac2bb4c4cf4ad8f0566b7ab0f90bf3b7de79de15  lib/TFT_eSPI-2.5.33/User_Setup_Select.h
+128d583ca10e99005e61d2b8b02374cb23d01209c4dd5d51086e346768b4daff  lib/TFT_eSPI-2.5.33/User_Setups/Setup1_ILI9341.h
+86fc4cdf5c14e9d3e7eb1d806c6b5bbe3ce9fa02943c7c7e010c279ca5274f46  lib/TFT_eSPI-2.5.33/User_Setups/Setup10_RPi_touch_ILI9486.h
+ac7be604be0a0c2162cb192900bc4f69b4a7ccdc84c03d0cab911b414caf7718  lib/TFT_eSPI-2.5.33/User_Setups/Setup100_RP2040_ILI9488_parallel.h
+a0b74293a3034a2f5eee734f2e4a320baea10805d3e8eeffc4ea1c5b3645430a  lib/TFT_eSPI-2.5.33/User_Setups/Setup101_RP2040_ILI9481_parallel.h
+6c588ee03386fe80fa12d29d3359e000c18880223ed09e523419b357bb8b9d6f  lib/TFT_eSPI-2.5.33/User_Setups/Setup102_RP2040_ILI9341_parallel.h
+9b56b5881da296e1b448013b31518b4e4a573aab5cf67f72a57e1a4947fb2897  lib/TFT_eSPI-2.5.33/User_Setups/Setup103_RP2040_ILI9486_parallel.h
+f8c7155c14a73eb8ca70584ba34104ce35c0d756062aab15b5920877898c7209  lib/TFT_eSPI-2.5.33/User_Setups/Setup104_RP2040_ST7796_parallel.h
+927da373d7d8fabccdb87d170d66c33bdfd52bf7ff3d12495780cfebb3056687  lib/TFT_eSPI-2.5.33/User_Setups/Setup105_RP2040_ST7796_16bit_parallel.h
+4c597a3cdc33234986c4e2830190b3ef77d1a0c8a40ac366e702f06cc3763850  lib/TFT_eSPI-2.5.33/User_Setups/Setup106_RP2040_ILI9481_16bit_parallel.h
+6003b765f81bef9c76c29f1e9c2a2ff3c528ab9f4247ae6c1b7a3c6625e57165  lib/TFT_eSPI-2.5.33/User_Setups/Setup107_RP2040_ILI9341_16bit_parallel.h
+4083bb0a8c3c41070094b0698fc90d86e72e0dec71fb85b2a52b0d3e947b4083  lib/TFT_eSPI-2.5.33/User_Setups/Setup108_RP2040_ST7735.h
+cdbb0bdb4cd04e32451624f4d9ad63fc5d233df57b1052f40174d425e33ce11f  lib/TFT_eSPI-2.5.33/User_Setups/Setup11_RPi_touch_ILI9486.h
+3fcc24c08c75aa305469c20b7e0f99248e56d2d09fe1eaa859176018f1451600  lib/TFT_eSPI-2.5.33/User_Setups/Setup12_M5Stack_Basic_Core.h
+2d2c5dbf52eb03f3eec836e290cec5e60d41c722f8bdc5cf150870a814cf64c6  lib/TFT_eSPI-2.5.33/User_Setups/Setup13_ILI9481_Parallel.h
+32ed67c65f8eb18291bdb0d886ec82461c8f15284e53ea82c076044dbc56b6a8  lib/TFT_eSPI-2.5.33/User_Setups/Setup135_ST7789.h
+c00cee3b8826a89ce8f8cad42ca6f5de7ccb36657566c9fe2261ad5a02648d8e  lib/TFT_eSPI-2.5.33/User_Setups/Setup136_LilyGo_TTV.h
+5edbb4d86c98c7fd22cf2c523a099922cb7355d514f52ff04788d7a21164cf35  lib/TFT_eSPI-2.5.33/User_Setups/Setup137_LilyGo_TDisplay_RP2040.h
+eb180e582b32e562aaac34db801efc493ce7624a22fe352e578ce33ace126cdb  lib/TFT_eSPI-2.5.33/User_Setups/Setup138_Pico_Explorer_Base_RP2040_ST7789.h
+fcbc64c6094362e7fb8009724ae61310ae37dae56864e4c7c444806f59fe5bc5  lib/TFT_eSPI-2.5.33/User_Setups/Setup14_ILI9341_Parallel.h
+d80c3dea043f093b914438be882fbb42b3ffca3e1b91871340b86b23be13c12b  lib/TFT_eSPI-2.5.33/User_Setups/Setup15_HX8357D.h
+5448155d9804862489b3f4f88a575c50e4ad53f13e539cf8ed9fb744391fae70  lib/TFT_eSPI-2.5.33/User_Setups/Setup16_ILI9488_Parallel.h
+f0f8dd9a0f2f6f39ce5689a459abee8a3395043454d73ad3ddbafa9ca3278828  lib/TFT_eSPI-2.5.33/User_Setups/Setup17_ePaper.h
+a4bb7aac397d467496fd5a7b6b535374d3e04eb8e4f668553e0535dcccc144b7  lib/TFT_eSPI-2.5.33/User_Setups/Setup18_ST7789.h
+5e01fe16d6707485ac2a21741edeb01c688f3f675eed73e566016d8627f44612  lib/TFT_eSPI-2.5.33/User_Setups/Setup19_RM68140_Parallel.h
+6aed23d952c7830ec322ae5c73bc2f10dd925a3f0114b26d68cf393111dbe5bc  lib/TFT_eSPI-2.5.33/User_Setups/Setup2_ST7735.h
+d5acb0dbb83868fc0f0159cf1a03ff77e55932ef2828602511d803f2d1e2f4be  lib/TFT_eSPI-2.5.33/User_Setups/Setup20_ILI9488.h
+10b1ff3b4b2a1fb5f677b4f48f15c8e89c7589a54feedca0c371ca9a5cdfaf98  lib/TFT_eSPI-2.5.33/User_Setups/Setup200_GC9A01.h
+ebb84b89bf4342edfe0e1e596e04bc5e7499df9757c5d1084fb8ebe13c931129  lib/TFT_eSPI-2.5.33/User_Setups/Setup201_WT32_SC01.h
+122c624184a9e544bd0a334910e479bfb72b81ed421db1ff792f7d0fb1b99df1  lib/TFT_eSPI-2.5.33/User_Setups/Setup202_SSD1351_128.h
+7d5ff85ebc41bea6436e083dc7fb0d832454db99bd5febc2702eaca532f08d71  lib/TFT_eSPI-2.5.33/User_Setups/Setup203_ST7789.h
+9a7e885e486a89ada40641dc96d6098149581c78069a1fffd0f8fdf99f483b37  lib/TFT_eSPI-2.5.33/User_Setups/Setup204_ESP32_TouchDown.h
+b14e20f154e8913dd8edc22ccb5a052fe950262bfd0840a33be59dfe947c901c  lib/TFT_eSPI-2.5.33/User_Setups/Setup205_ESP32_TouchDown_S3.h
+d83cce766500967e0f2d263e992d90881867df422cd2b064f6b4c1212f11b0e8  lib/TFT_eSPI-2.5.33/User_Setups/Setup206_LilyGo_T_Display_S3.h
+ad56cf348de2695b099ee3f506bf660c78da83fbeebeeb99de5c2372befd06f4  lib/TFT_eSPI-2.5.33/User_Setups/Setup207_LilyGo_T_HMI.h
+31f01e2387b814b7f855de42152e85ca16b7b8afdcbf36b151a2d1a9afdb5f1d  lib/TFT_eSPI-2.5.33/User_Setups/Setup209_LilyGo_T_Dongle_S3.h
+ff0493e75d8b8326f88de3bfa6bc0133709c18691be37038e2c6ede15285d8be  lib/TFT_eSPI-2.5.33/User_Setups/Setup21_ILI9488.h
+eaa047989e4c60a608ea528b34390c2010a69ee8e784ede6cc1b7012150830a1  lib/TFT_eSPI-2.5.33/User_Setups/Setup210_LilyGo_T_Embed_S3.h
+ea47adbce4115c60b3ae2eb020593df2de0d6acfcc327289614ef2ced0c310d5  lib/TFT_eSPI-2.5.33/User_Setups/Setup211_LilyGo_T_QT_Pro_S3.h
+6162b07bb2be9a2ed84ed4658a7ae8994b59a749bcc0e1a624aa2bb4d65b9bd3  lib/TFT_eSPI-2.5.33/User_Setups/Setup212_LilyGo_T_PicoPro.h
+0e503857c6e1dfe9464070b123f456b37ec0e0b53516b7a49a16c4995af0cc6c  lib/TFT_eSPI-2.5.33/User_Setups/Setup213_LilyGo_T_Beam_Shield.h
+13763ac6391f11ee3c7f713ea34ffac4d8bbe393dd21b530df231d8e991a5900  lib/TFT_eSPI-2.5.33/User_Setups/Setup22_TTGO_T4.h
+d940b2a13fb7478b2a9f5993c2e48da3409edc8bdd3eb975ccf3c726339c203f  lib/TFT_eSPI-2.5.33/User_Setups/Setup22_TTGO_T4_v1.3.h
+57440e93249c4d14d8fdb7334052681fe75a747f67c15e52ff8aa0f53597109b  lib/TFT_eSPI-2.5.33/User_Setups/Setup23_TTGO_TM.h
+a50a38c266441a79a5ec0434f3ddb78e76978305633af521d2b72a905e2908c7  lib/TFT_eSPI-2.5.33/User_Setups/Setup24_ST7789.h
+2034db063109fc081fe7ad90190f0ef3691f3922e6a5e0d0cda93fda825daec0  lib/TFT_eSPI-2.5.33/User_Setups/Setup25_TTGO_T_Display.h
+83cc5f14d9da8dc41cbfeb4c5a4b750dac66b30893c9b715548054b4ba2ceba1  lib/TFT_eSPI-2.5.33/User_Setups/Setup250_ESP32_S3_Box_Lite.h
+b218ac9ff8669c1bda8f0d6221d57809450c33f1cbc54e54fa2bdb74390624ab  lib/TFT_eSPI-2.5.33/User_Setups/Setup251_ESP32_S3_Box.h
+4878319fdb81f6f95f680ad1b5499e14c9410b5f884c37e5761bad419d6966c1  lib/TFT_eSPI-2.5.33/User_Setups/Setup26_TTGO_T_Wristband.h
+f93362da30afc7f1bf056e9328bf10e4259036acb1a7a048eb8ba26810c149f8  lib/TFT_eSPI-2.5.33/User_Setups/Setup27_RPi_ST7796_ESP32.h
+44fd907513b1c2807468e104448b98b16cf8fe4b1ab55873cbf595ed0d649260  lib/TFT_eSPI-2.5.33/User_Setups/Setup28_RPi_ST7796_ESP8266.h
+c06599c29f9717a76b31c978c923ab3efd08a8653a1d4ee2237d1b2612938f33  lib/TFT_eSPI-2.5.33/User_Setups/Setup29_ILI9341_STM32.h
+072046355669cda8510f14e9cd625a6408692481bf6cfd619e437384a8b73371  lib/TFT_eSPI-2.5.33/User_Setups/Setup3_ILI9163.h
+a1ccde8e919fcc60aad676aff8cdf57b579c728cf44db0579549e8cc80d7c198  lib/TFT_eSPI-2.5.33/User_Setups/Setup30_ILI9341_Parallel_STM32.h
+d4f8402b7c511650275e22e0f009ad464bd142a629fd693ed210077156e25c1c  lib/TFT_eSPI-2.5.33/User_Setups/Setup301_BW16_ST7735.h
+6a62a678e010d53601790052213b21ccbdb4de7ae77e6fe215146225171ba185  lib/TFT_eSPI-2.5.33/User_Setups/Setup31_ST7796_Parallel_STM32.h
+01a0cc37afcfbfaa3efb49a919d883a698e965979e81fcd707e4c0e35d66e4dd  lib/TFT_eSPI-2.5.33/User_Setups/Setup32_ILI9341_STM32F103.h
+10f2db7d6a6a8e4a6f0ccdfe3d8aeea8df5f71e3eb79abaa1644062ed90213fd  lib/TFT_eSPI-2.5.33/User_Setups/Setup33_RPi_ILI9486_STM32.h
+790965e6e0e5c802b1a772b01f01b22f62e61493e9f1034292a68dfe00c2a9b6  lib/TFT_eSPI-2.5.33/User_Setups/Setup34_ILI9481_Parallel_STM32.h
+4ebf88763a2b6728927b7f71f2c7625708a728b3d6855648d36055bd7a9ba2aa  lib/TFT_eSPI-2.5.33/User_Setups/Setup35_ILI9341_STM32_Port_Bus.h
+3e490d15482605b8fbaa4486a1ad3bb7e48b06e14302fae50e2526a14eca90c5  lib/TFT_eSPI-2.5.33/User_Setups/Setup36_RPi_touch_ST7796.h
+6158c4678722fe8a1829d28f010d7b1560d1b2fb4b8640708964b279494df3f6  lib/TFT_eSPI-2.5.33/User_Setups/Setup4_S6D02A1.h
+6afa62b3501d71b37a028d642344bd85b87ca01a2468d1f87fedb0cd77d68876  lib/TFT_eSPI-2.5.33/User_Setups/Setup42_ILI9341_ESP32.h
+33f1a6b8b416e6998f55c37f33ebcf4873fc51c777d8b9e4c99f8da9bc4ee991  lib/TFT_eSPI-2.5.33/User_Setups/Setup43_ST7735.h
+515e57f3922e865bdfcbd157b2d942d1d4046cf677abeb9ecb7b5275fc918646  lib/TFT_eSPI-2.5.33/User_Setups/Setup44_TTGO_CameraPlus.h
+723d44b0ab06437f2de9324e6377edb6254f791507a2bd1dc0f313aa526edd3f  lib/TFT_eSPI-2.5.33/User_Setups/Setup45_TTGO_T_Watch.h
+592dc4d463b66529dace801c8e22ee43e4846cc2594e202b9c441e71d8daf46e  lib/TFT_eSPI-2.5.33/User_Setups/Setup46_GC9A01_ESP32.h
+e15adc6685bc867d1f7811f97f8b5df703d43ff2abca0887e8531920065f7ed4  lib/TFT_eSPI-2.5.33/User_Setups/Setup47_ST7735.h
+acdd671827f2cb2cc7c174022cb94c55a7c132a38192b392a476d9f465a9b943  lib/TFT_eSPI-2.5.33/User_Setups/Setup5_RPi_ILI9486.h
+4bf58e3cc7856bd48ba67a4bdecb58a8b2a972690afc66b89e2d861a6aac47d3  lib/TFT_eSPI-2.5.33/User_Setups/Setup50_SSD1963_Parallel.h
+90e6302d6361a9cb072d37fa58969dad8cfda126ec6e12fe8128923ed5039b6d  lib/TFT_eSPI-2.5.33/User_Setups/Setup51_LilyPi_ILI9481.h
+076893fce75b4979614d9b6eb33c19c04292c6133e7fa3fb5a796016c1887d34  lib/TFT_eSPI-2.5.33/User_Setups/Setup52_LilyPi_ST7796.h
+b87aab407f3c31f9eced9380f5cf1537a8223152bc396ba993e2f6d145d78900  lib/TFT_eSPI-2.5.33/User_Setups/Setup6_RPi_Wr_ILI9486.h
+12d79a69d0ada5f6bac4aa1a21661ec78693057c5c2299dc6e6efad34102aa20  lib/TFT_eSPI-2.5.33/User_Setups/Setup60_RP2040_ILI9341.h
+9de67c8d5160c8407db1bb1398c436d8eea88d0452726940dae03e51ab0b7e9f  lib/TFT_eSPI-2.5.33/User_Setups/Setup61_RP2040_ILI9341_PIO_SPI.h
+3a4a5376610fec8fbefa83bbdbef1f34d0be1239e4f5474e076d6bf35a5d71c2  lib/TFT_eSPI-2.5.33/User_Setups/Setup62_RP2040_Nano_Connect_ILI9341.h
+b1077f5a22aad3c5bf83c91e0e31a8d616e3128d2ecd647a2ca1cf1a5dc5db79  lib/TFT_eSPI-2.5.33/User_Setups/Setup66_Seeed_XIAO_Round.h
+68ca579825309a5b0747a8d293e4416c21d7bdbe5f25e724bcfa3aaff0fee977  lib/TFT_eSPI-2.5.33/User_Setups/Setup7_ST7735_128x128.h
+61a1b397d05f30dea320d0bb7a46e43e147143fef7d9ef42347e948bff4c7983  lib/TFT_eSPI-2.5.33/User_Setups/Setup70_ESP32_S2_ILI9341.h
+eb252edcb78ed33bb6a57c6f584988d54ff0d61a706c5e127867e9ac3f700a55  lib/TFT_eSPI-2.5.33/User_Setups/Setup70b_ESP32_S3_ILI9341.h
+280de3f5a2532b824343971f968434eb13bcefdf89ec52a0d478b7400b4365de  lib/TFT_eSPI-2.5.33/User_Setups/Setup70c_ESP32_C3_ILI9341.h
+e5767b5cd7f7aaf81d4b2b962d64e8a2679be8a2188ead7747ec472ff3822999  lib/TFT_eSPI-2.5.33/User_Setups/Setup70d_ILI9488_S3_Parallel.h
+2fd5b6e626b926c32df532695ff19c1f71a1094ed59b73d38f41df511f3ca2bb  lib/TFT_eSPI-2.5.33/User_Setups/Setup70f_ESP32_S2_ST7735.h
+5d9382ca3c062f3ea0ff0ac29f79860068a5f234d733969332bc185ce2ca4343  lib/TFT_eSPI-2.5.33/User_Setups/Setup71_ESP32_S2_ST7789.h
+4fefefc02a18cb1763b430082becb42c7c6b92cd6f81453dbb3dae7240a3cf63  lib/TFT_eSPI-2.5.33/User_Setups/Setup72_ESP32_ST7789_172x320.h
+18a08cf9d2268a68d740e38abab80c2924b21f31df097e9938e6636432044207  lib/TFT_eSPI-2.5.33/User_Setups/Setup8_ILI9163_128x128.h
+c8779d6ae6884b773ca3cfea35efbc666a67f2adf9ca0418bdd6da30977e84a2  lib/TFT_eSPI-2.5.33/User_Setups/Setup9_ST7735_Overlap.h
+5e4ca0e97b62df4ecb1ae52e72330d1b9934bddb0446ff5cefa912b561ad6d59  lib/TFT_eSPI-2.5.33/User_Setups/SetupX_Template.h
+f44ca96f80de7a4895afed19b8b26d93eb13df44ed7f82f6e7c433c6bc6f7274  lib/TFT_eSPI-2.5.33/User_Setups/User_Custom_Fonts.h
+5037bc66f8f2635f8fd595256c2713522547bd6e7ef47fae919e77588c8eebdf  platformio.ini
+a3adc721f24b836b09dc618d0f3ef5d5b11bbfd1c3477dbba5297d0b5ce70d2a  README.md
+f5abac3e5bd11b37ae1853a39135d592898537f37cdf5da99ee7d21974c98a57  src/main.cpp
+1cdc7efc91aa03de66deb62d3dd70fcf668f0e7e26e057839fdb163937c353ba  tools/package.ps1
+7e42c222d0ce1e2a5cce9014f934d123384458d8b498a0199eeca656e435fe07  tools/serial_check.py

@@ -1,0 +1,6 @@
+.pio/
+backups/
+firmware_backup/
+vendor/
+dist/
+.DS_Store
